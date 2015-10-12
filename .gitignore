@@ -1,0 +1,9 @@
+npm-debug.log
+node_modules
+*.sublime-project
+*.sublime-workspace
+test.html
+reports
+style
+www/script/default.js
+.sass-cache

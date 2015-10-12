@@ -1,0 +1,27 @@
+{
+  "name": "calcio",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonfrost43/calcio.git"
+  },
+  "author": "Jon Frost",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/jonfrost43/calcio/issues"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-require": "^1.1.2",
+    "grunt-sass": "^1.1.0-beta"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
