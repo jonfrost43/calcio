@@ -2,9 +2,9 @@
   "name": "calcio",
   "version": "0.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
-    "test": "grunt test"
+    "postinstall": "grunt",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
