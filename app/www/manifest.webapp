@@ -1,0 +1,23 @@
+{
+    "short_name": "Calcio",
+    "name": "Calcio - Euro 2016",
+    "icons": [
+        {
+            "src": "img/icon-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone"
+}
