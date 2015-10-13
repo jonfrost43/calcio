@@ -57,7 +57,7 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-require');
 	grunt.loadNpmTasks('grunt-sass');
 
-	grunt.registerTask('default', ['sass:prod'/*, 'requirejs:prod'*/]);
+	grunt.registerTask('default', ['sass:prod', 'requirejs:prod']);
 
 	grunt.registerTask('dev', ['sass:dev', 'watch']);
 
