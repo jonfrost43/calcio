@@ -1,0 +1,48 @@
+[
+	{
+		"group": "A",
+		"date": "2015-09-30",
+		"home": {
+			"name": "Malmo FF"
+		},
+		"away": {
+			"name": "Real Madrid",
+			"goals": [
+				{
+					"scorer": "Ronaldo",
+					"minute": 29
+				},
+				{
+					"scorer": "Ronaldo",
+					"minute": 90
+				}
+			]
+		}
+	},
+	{
+		"group": "B",
+		"date": "2015-09-30",
+		"home": {
+			"name": "Man Utd",
+			"goals": [
+				{
+					"scorer": "Mata",
+					"minute": 34
+				},
+				{
+					"scorer": "Smalling",
+					"minute": 53
+				}
+			]
+		},
+		"away": {
+			"name": "Vfl Wolfsburg",
+			"goals": [
+				{
+					"scorer": "Caligiuri",
+					"minute": 4
+				}
+			]
+		}
+	}
+]
