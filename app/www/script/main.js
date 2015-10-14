@@ -1,6 +1,7 @@
 requirejs([
 	'jquery',
+	'app/countdown'
 ],
-function($){
-	console.log('app init');
+function($, countdown){
+	var eurosCountdown = countdown($('.countdown'));
 });
