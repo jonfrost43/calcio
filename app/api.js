@@ -1,12 +1,20 @@
 var _ = require('lodash'),
-	cl2015 = require('./data/cl2015.json');
+	fs = require('fs');
 
-exports.delegate = function(request, response){
-	var data = cl2015;
+exports.handler = function(request, response){
+	fs.readFile('app/data/' + request.params.competition + '.json', 'utf8', function(err, data){
+		if(err){
+			console.log(err);
+			response.status(404).send('Sorry, we cannot find that!');
+			return;
+		}
 
-	if(!_.isEmpty(request.query)){
-		data = _.filter(cl2015, _.matches(request.query));
-	}
+		data = JSON.parse(data);
 
-	response.send(data);
+		if(!_.isEmpty(request.query)){
+			data = _.filter(data, _.matches(request.query));
+		}
+
+		response.send(data);
+	});
 }

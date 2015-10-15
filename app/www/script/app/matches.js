@@ -10,6 +10,10 @@ function($, component){
 				console.log(response);
 			});
 
+			$.getJSON('/api/cl2016').then(function(response){
+				console.log(response);
+			});
+
 			$.getJSON('/api/cl2015?group=A').then(function(response){
 				console.log(response);
 			});
