@@ -1,28 +1,22 @@
 define([
 	'jquery',
-	'app/component'
+	'app/component',
+	'lib/doT',
+	'text!templates/matches.html'
 ],
-function($, component){
+function($, component, doT, template){
+
+	var templateFnc = doT.template(template);
 
 	return component({
 		initialise: function($el, opts){
-			$.getJSON('/api/cl2015').then(function(response){
-				console.log(response);
-			});
+			this.$el = $el;
 
-			$.getJSON('/api/cl2016').then(function(response){
-				console.log(response);
-			});
+			$.getJSON('/api/cl2015').then(this.render.bind(this));
+		},
 
-			$.getJSON('/api/cl2015?group=A').then(function(response){
-				console.log(response);
-			});
-
-			$.getJSON('/api/cl2015?group=B').then(function(response){
-				console.log(response);
-			});
-
-			//$el.html();
+		render: function(data){
+			this.$el.html(templateFnc({matches: data}));
 		}
 	});
 

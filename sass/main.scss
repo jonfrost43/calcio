@@ -1,2 +1,17 @@
 @import 'reset';
 @import 'typography';
+
+nav li {
+    display: inline-block;
+
+    a {
+        display: inline-block;
+        background: tomato;
+        padding: 0 10px;
+        margin: 0 10px;
+        text-transform: uppercase;
+        line-height: 2;
+
+        color: #000;
+    }
+}
