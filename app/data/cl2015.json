@@ -1,46 +1,92 @@
 [
 	{
 		"group": "A",
-		"date": "2015-09-30",
+		"date": "2015-09-15",
 		"home": {
 			"name": "Malmo FF"
 		},
 		"away": {
-			"name": "Real Madrid",
+			"name": "Paris",
 			"goals": [
 				{
-					"scorer": "Ronaldo",
-					"minute": 29
+					"scorer": "Di Maria",
+					"minute": "4"
 				},
 				{
-					"scorer": "Ronaldo",
-					"minute": 90
+					"scorer": "Cavani",
+					"minute": "61"
 				}
 			]
 		}
 	},
 	{
-		"group": "B",
-		"date": "2015-09-30",
+		"group": "A",
+		"date": "2015-09-15",
 		"home": {
-			"name": "Man Utd",
+			"name": "Real Madrid",
 			"goals": [
 				{
-					"scorer": "Mata",
-					"minute": 34
+					"scorer": "Benzema",
+					"minute": "30"
 				},
 				{
-					"scorer": "Smalling",
-					"minute": 53
+					"scorer": "Ronaldo",
+					"minute": "55",
+					"type": "P"
+				},
+				{
+					"scorer": "Ronaldo",
+					"minute": "63",
+					"type": "P"
+				},
+				{
+					"scorer": "Ronaldo",
+					"minute": "81"
 				}
 			]
 		},
 		"away": {
+			"name": "Shakhtar Donetsk"
+		}
+	},
+	{
+		"group": "B",
+		"date": "2015-09-15",
+		"home": {
 			"name": "Vfl Wolfsburg",
 			"goals": [
 				{
-					"scorer": "Caligiuri",
-					"minute": 4
+					"scorer": "Draxler",
+					"minute": "40"
+				}
+			]
+		},
+		"away": {
+			"name": "CSKA Moskva"
+		}
+	},
+	{
+		"group": "B",
+		"date": "2015-09-15",
+		"home": {
+			"name": "PSV",
+			"goals": [
+				{
+					"scorer": "Moreno",
+					"minute": "45+2"
+				},
+				{
+					"scorer": "Narsingh",
+					"minute": "57"
+				}
+			]
+		},
+		"away": {
+			"name": "Man Utd",
+			"goals": [
+				{
+					"scorer": "Depay",
+					"minute": "41"
 				}
 			]
 		}
