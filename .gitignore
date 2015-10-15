@@ -7,3 +7,4 @@ reports
 style
 app/www/script/default.js
 .sass-cache
+node-v4*
