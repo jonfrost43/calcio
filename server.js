@@ -6,6 +6,7 @@ var express = require('express'),
 app.use(express.static('app/www'));
 
 app.get('/api/:competition', api.handler);
+app.get('/api/:competition/:format', api.handler);
 
 app.listen(port, function(){
     console.log('server started at http://localhost:' + port);

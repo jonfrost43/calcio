@@ -1,10 +1,13 @@
 requirejs([
 	'jquery',
 	'app/countdown',
-	'app/matches'
+	'app/matches',
+	'app/standings'
 ],
-function($, countdown, matches){
+function($, countdown, matches, standings){
 	var eurosCountdown = countdown($('.countdown'));
 
 	var matchesList = matches($('.matches'));
+
+	var standings = standings($('.standings'));
 });
