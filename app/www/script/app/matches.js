@@ -15,8 +15,12 @@ function($, component, doT, template){
 			$.getJSON('/api/cl2015').then(this.render.bind(this));
 		},
 
-		render: function(data){
-			this.$el.html(templateFnc({matches: data}));
+		render: function(matches){
+			matches.forEach(function(match){
+				match.home.score = match.home.goals ? match.home.goals.length : 0;
+				match.away.score = match.away.goals ? match.away.goals.length : 0;
+			});
+			this.$el.html(templateFnc(matches));
 		}
 	});
 

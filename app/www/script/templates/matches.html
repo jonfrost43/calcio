@@ -1,7 +1,7 @@
 <div>
-    {{~it.matches :match}}
+    {{~it :match}}
         <p class="match">
-            {{=match.home.name}} v {{=match.away.name}}
+            {{=match.home.name}} <strong>{{=match.home.score}}:{{=match.away.score}}</strong> {{=match.away.name}}
         </p>
     {{~}}
 </div>
