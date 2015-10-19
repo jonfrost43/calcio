@@ -1,7 +1,44 @@
 <div>
-    {{~it :match}}
-        <p class="match">
-            {{=match.home.name}} <strong>{{=match.home.score}}:{{=match.away.score}}</strong> {{=match.away.name}}
-        </p>
-    {{~}}
+    <h3>Group A</h3>
+    <table class="group">
+        <tr>
+            <th></th>
+            <th>P</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>Pts</th>
+        </tr>
+        {{~ it.A :team}}
+        <tr>
+            <td>{{=team.name}}</td>
+            <td>{{=team.won}}</td>
+            <td>{{=team.drawn}}</td>
+            <td>{{=team.lost}}</td>
+            <td>{{=team.gd}}</td>
+            <td>{{=team.points}}</td>
+        </tr>
+        {{~}}
+    </table>
+    <h3>Group B</h3>
+    <table class="group">
+        <tr>
+            <th></th>
+            <th>P</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>Pts</th>
+        </tr>
+        {{~ it.B :team}}
+        <tr>
+            <td>{{=team.name}}</td>
+            <td>{{=team.won}}</td>
+            <td>{{=team.drawn}}</td>
+            <td>{{=team.lost}}</td>
+            <td>{{=team.gd}}</td>
+            <td>{{=team.points}}</td>
+        </tr>
+        {{~}}
+    </table>
 </div>
