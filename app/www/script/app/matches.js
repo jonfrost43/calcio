@@ -2,9 +2,10 @@ define([
 	'jquery',
 	'app/component',
 	'lib/doT',
-	'text!templates/matches.html'
+	'text!templates/matches.html',
+	'app/utils'
 ],
-function($, component, doT, template){
+function($, component, doT, template, utils){
 
 	var templateFnc = doT.template(template);
 
@@ -12,7 +13,9 @@ function($, component, doT, template){
 		initialise: function($el, opts){
 			this.$el = $el;
 
-			$.getJSON('/api/cl2015').then(this.render.bind(this));
+			fetch('/api/cl2015')
+				.then(utils.json)
+				.then(this.render.bind(this));
 		},
 
 		render: function(matches){
@@ -20,6 +23,7 @@ function($, component, doT, template){
 				match.home.score = match.home.goals ? match.home.goals.length : 0;
 				match.away.score = match.away.goals ? match.away.goals.length : 0;
 			});
+
 			this.$el.html(templateFnc(matches));
 		}
 	});
