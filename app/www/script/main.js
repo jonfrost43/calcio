@@ -1,23 +1,20 @@
 requirejs([
 	'jquery',
+	'app/notifications',
 	'app/countdown',
 	'app/matches',
 	'app/standings'
 ],
-function($, countdown, matches, standings){
-	var eurosCountdown = countdown($('.countdown'));
+function($, notifications, countdown, matches, standings){
+	var notifications = notifications($('.notifications'));
 
-	var matchesList = matches($('.matches'));
+	countdown($('.countdown'));
 
-	var standings = standings($('.standings'));
+	matches($('.matches'));
+
+	standings($('.standings'));
 
 	$(document).on('click tap longTap swipeLeft swipeRight', function(e){
-		var notificationEl = document.createElement('p');
-		notificationEl.innerHTML = e.type;
-		$('.notifications').append(notificationEl);
-
-		setTimeout(function(){
-			$(notificationEl).remove()
-		}, 3000);
+		notifications.add(e.type);
 	});
 });
