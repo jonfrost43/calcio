@@ -28,7 +28,7 @@ function($, component){
 
 			$container.append($el);
 
-			//wait for a repaint, otherwise the CSS3 transition doesn't run
+			// force a repaint, otherwise the CSS3 transition doesn't run
 			$el[0].clientHeight;
 			$el.addClass('show');
 
