@@ -34,6 +34,7 @@ function($, notifications, sections, countdown, matches, standings){
 				console.log('ServiceWorker registration successful with scope: ', registration.scope);
 			})
 			.catch(function(err){
+				notifications.add('ServiceWorker registration failed');
 				console.log('ServiceWorker registration failed: ', err);
 			});
 
