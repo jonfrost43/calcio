@@ -6,7 +6,8 @@ var tablify = function(tables, match, index, array){
 		homeTeam = match.home.name,
 		awayTeam = match.away.name,
 		homeTeamGoals = match.home.goals ? match.home.goals.length : 0,
-		awayTeamGoals = match.away.goals ? match.away.goals.length : 0;
+		awayTeamGoals = match.away.goals ? match.away.goals.length : 0,
+		groupIndex = _.findIndex(tables, {name: group});
 
 	var getBaseValues = function(teamName){
 		return {
@@ -21,25 +22,26 @@ var tablify = function(tables, match, index, array){
 	};
 
 	//create group if new
-	if(!tables[group]){
-		tables[group] = [];
+	if(groupIndex === -1){
+		groupIndex = tables.push({
+			name: group,
+			teams: []
+		}) - 1;
 	}
+	var teams = tables[groupIndex].teams,
+		homeData = _.findWhere(teams, {name: homeTeam}),
+		awayData = _.findWhere(teams, {name: awayTeam});
 
-	var homeData = _.findWhere(tables[group], {name: homeTeam}),
-		awayData = _.findWhere(tables[group], {name: awayTeam});
-
-	//create team if home team is new
+	//create homeData if home team is new
 	if(!homeData){
-	//if(!tables[group][homeTeam]){
 		homeData = getBaseValues(homeTeam);
-		tables[group].push(homeData);
+		teams.push(homeData);
 	}
 
-	//create team if away team is new
+	//create awayData if away team is new
 	if(!awayData){
-	//if(!tables[group][awayTeam]){
 		awayData = getBaseValues(awayTeam);
-		tables[group].push(awayData);
+		teams.push(awayData);
 	}
 
 	homeData.played++;
@@ -67,10 +69,6 @@ var tablify = function(tables, match, index, array){
 	return tables;
 };
 
-var applyResult = function(teamData, match){
-
-};
-
 exports.handler = function(request, response){
 	fs.readFile('app/data/' + request.params.competition + '.json', 'utf8', function(err, data){
 		if(err){
@@ -86,7 +84,17 @@ exports.handler = function(request, response){
 		}
 
 		if(request.params.format === 'tables'){
-			data = data.reduce(tablify, {});
+			data = data.reduce(tablify, []);
+
+			data.forEach(function(table){
+				table.teams
+					.sort(function(a, b){
+						return b.points - a.points;
+					})
+					.sort(function(a, b){
+						return b.gd - a.gd;
+					});
+			});
 		}
 
 		response.send(data);
