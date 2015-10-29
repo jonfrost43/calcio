@@ -1,0 +1,15 @@
+#main {
+    width: 100%;
+
+    .sectionsContainer {
+        transition: all 0.25s ease;
+        width: 400%;
+        overflow-x: hidden;
+
+        section {
+            width: 25%;
+            float: left;
+        }
+    }
+
+}
