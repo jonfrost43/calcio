@@ -2,10 +2,10 @@
 	{
 		"group": "A",
 		"date": "2015-09-15",
-		"home": {
-			"name": "Malmo FF"
-		},
 		"away": {
+			"name": "Malmö"
+		},
+		"home": {
 			"name": "Paris",
 			"goals": [
 				{
@@ -53,7 +53,7 @@
 		"group": "B",
 		"date": "2015-09-15",
 		"home": {
-			"name": "Vfl Wolfsburg",
+			"name": "Wolfsburg",
 			"goals": [
 				{
 					"scorer": "Draxler",
@@ -82,13 +82,106 @@
 			]
 		},
 		"away": {
-			"name": "Man Utd",
+			"name": "Man. United",
 			"goals": [
 				{
 					"scorer": "Depay",
 					"minute": "41"
 				}
 			]
+		}
+	},
+	{
+		"group": "C",
+		"date": "2015-09-15",
+		"home": {
+			"name": "Galatasaray"
+		},
+		"away": {
+			"name": "Atlético",
+			"goals": [
+				{
+					"scorer": "Griezmann",
+					"minute": "18"
+				},
+				{
+					"scorer": "Griezmann",
+					"minute": "25"
+				}
+			]
+		}
+	},
+	{
+		"group": "C",
+		"date": "2015-09-15",
+		"home": {
+			"name": "Benfica",
+			"goals": [
+				{
+					"scorer": "Gaitán",
+					"minute": "51"
+				},
+				{
+					"scorer": "Mitroglou",
+					"minute": "62"
+				}
+			]
+		},
+		"away": {
+			"name": "Astana"
+		}
+	},
+	{
+		"group": "D",
+		"date": "2015-09-15",
+		"home": {
+			"name": "Man. City",
+			"goals": [
+				{
+					"scorer": "Chiellini",
+					"minute": "57",
+					"type": "OG"
+				}
+			]
+		},
+		"away": {
+			"name": "Juventus",
+			"goals": [
+				{
+					"scorer": "Mandžukić",
+					"minute": "70"
+				},
+				{
+					"scorer": "Morata",
+					"minute": "81"
+				}
+			]
+		}
+	},
+	{
+		"group": "D",
+		"date": "2015-09-15",
+		"home": {
+			"name": "Sevilla",
+			"goals": [
+				{
+					"scorer": "Gameiro",
+					"minute": "47",
+					"type": "P"
+				},
+				{
+					"scorer": "Banega",
+					"minute": "66",
+					"type": "P"
+				},
+				{
+					"scorer": "Konoplyanka",
+					"minute": "84"
+				}
+			]
+		},
+		"away": {
+			"name": "Mönchengladbach"
 		}
 	}
 ]
