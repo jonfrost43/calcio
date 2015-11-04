@@ -13,9 +13,10 @@ function($, component, doT, template, utils){
 		initialise: function($el, opts){
 			this.$el = $el;
 
-			fetch('/api/cl2015/tables')
-				.then(utils.json)
-				.then(this.render.bind(this));
+			$.ajax({
+				url: '/api/cl2015/tables'
+			})
+			.then(this.render.bind(this));
 		},
 
 		render: function(tableData){
