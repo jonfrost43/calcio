@@ -6,7 +6,7 @@ function($, component){
 
     var $container,
         $sections,
-        sw = screen.width,
+        sw = $(document).width(),
         currIndex = 0;
 
 	return component({
@@ -24,8 +24,6 @@ function($, component){
                 if(currIndex === 0 && e.type === 'swipeRight' || currIndex === $sections.length-1 && e.type === 'swipeLeft'){
                     return;
                 }
-
-                //$(document).trigger('notify', e.type);
 
                 var direction = {
                     swipeLeft: 1,
