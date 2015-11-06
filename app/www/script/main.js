@@ -21,11 +21,6 @@ function($, notifications, sections, countdown, matches, standings){
 		notifications.add(message);
 	});
 
-	$('nav').on('click', 'a', function(e){
-		e.preventDefault();
-		sections.goTo($(e.target).parent().index());
-	})
-
 	if('serviceWorker' in navigator){
 
 		navigator.serviceWorker.register('/sw.js')
