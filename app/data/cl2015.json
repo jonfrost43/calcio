@@ -183,5 +183,228 @@
 		"away": {
 			"name": "Mönchengladbach"
 		}
+	},
+	{
+		"group": "E",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Leverkusen",
+			"goals": [
+				{
+					"scorer": "Mehmedi",
+					"minute": "4"
+				},
+				{
+					"scorer": "Hakan Çalhanoğlu",
+					"minute": "47"
+				},
+				{
+					"scorer": "Hakan Çalhanoğlu",
+					"minute": "76",
+					"type": "P"
+				},
+				{
+					"scorer": "Hernández",
+					"minute": "59"
+				}
+			]
+		},
+		"away": {
+			"name": "BATE",
+			"goals": [
+				{
+					"scorer": "Milunović",
+					"minute": "13"
+				}
+			]
+		}
+	},
+	{
+		"group": "E",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Roma",
+			"goals": [
+				{
+					"scorer": "Florenzi",
+					"minute": "31"
+				}
+			]
+		},
+		"away": {
+			"name": "Barcelona",
+			"goals": [
+				{
+					"scorer": "Suárez",
+					"minute": "21"
+				}
+			]
+		}
+	},
+	{
+		"group": "F",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Dinamo Zagreb",
+			"goals": [
+				{
+					"scorer": "Pivarić",
+					"minute": "24"
+				},
+				{
+					"scorer": "Fernandes",
+					"minute": "58"
+				}
+			]
+		},
+		"away": {
+			"name": "Arsenal",
+			"goals": [
+				{
+					"scorer": "Walcott",
+					"minute": "79"
+				}
+			]
+		}
+	},
+	{
+		"group": "F",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Olympiacos"
+		},
+		"away": {
+			"name": "Bayern",
+			"goals": [
+				{
+					"scorer": "Müller",
+					"minute": "52"
+				},
+				{
+					"scorer": "Müller",
+					"minute": "90+2",
+					"type": "P"
+				},
+				{
+					"scorer": "Götze",
+					"minute": "89"
+				}
+			]
+		}
+	},
+	{
+		"group": "G",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Dynamo Kyiv",
+			"goals": [
+				{
+					"scorer": "Gusev",
+					"minute": "20"
+				},
+				{
+					"scorer": "Buyalskiy",
+					"minute": "89"
+				}
+			]
+		},
+		"away": {
+			"name": "Porto",
+			"goals": [
+				{
+					"scorer": "Aboubakar",
+					"minute": "23"
+				},
+				{
+					"scorer": "Aboubakar",
+					"minute": "81"
+				}
+			]
+		}
+	},
+	{
+		"group": "G",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Chelsea",
+			"goals": [
+				{
+					"scorer": "Willian",
+					"minute": "15"
+				},
+				{
+					"scorer": "Oscar",
+					"minute": "45+4",
+					"type": "P"
+				},
+				{
+					"scorer": "Diego Costa",
+					"minute": "58"
+				},
+				{
+					"scorer": "Fàbregas",
+					"minute": "78"
+				}
+			]
+		},
+		"away": {
+			"name": "M. Tel-Aviv"
+		}
+	},
+	{
+		"group": "H",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Valencia",
+			"goals": [
+				{
+					"scorer": "João Cancelo",
+					"minute": "55"
+				},
+				{
+					"scorer": "André Gomes",
+					"minute": "73"
+				}
+			]
+		},
+		"away": {
+			"name": "Zenit",
+			"goals": [
+				{
+					"scorer": "Hulk",
+					"minute": "9"
+				},
+				{
+					"scorer": "Hulk",
+					"minute": "44"
+				},
+				{
+					"scorer": "Witsel",
+					"minute": "76"
+				}
+			]
+		}
+	},
+	{
+		"group": "H",
+		"date": "2015-09-16",
+		"home": {
+			"name": "Gent",
+			"goals": [
+				{
+					"scorer": "Milicevic",
+					"minute": "68"
+				}
+			]
+		},
+		"away": {
+			"name": "Lyon",
+			"goals": [
+				{
+					"scorer": "Jallet",
+					"minute": "58"
+				}
+			]
+		}
 	}
 ]
