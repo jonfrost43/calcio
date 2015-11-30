@@ -70,7 +70,7 @@ var tablify = function(tables, match, index, array){
 };
 
 exports.handler = function(request, response){
-	fs.readFile('app/data/remapped/' + request.params.competition + '.json', 'utf8', function(err, data){
+	fs.readFile('app/data/' + request.params.competition + '.json', 'utf8', function(err, data){
 		if(err){
 			console.log(err);
 			response.status(404).send('Sorry, we cannot find that!');
