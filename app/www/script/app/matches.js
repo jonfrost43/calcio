@@ -19,13 +19,15 @@ function($, component, doT, template, utils){
 			.then(this.render.bind(this));
 		},
 
-		render: function(matches){
-			matches.forEach(function(match){
-				match.home.score = match.home.goals ? match.home.goals.length : 0;
-				match.away.score = match.away.goals ? match.away.goals.length : 0;
+		render: function(days){
+			days.forEach(function(day){
+				day.matches.forEach(function(match){
+					match.home.score = match.home.goals ? match.home.goals.length : 0;
+					match.away.score = match.away.goals ? match.away.goals.length : 0;
+				});
 			});
 
-			this.$el.html(templateFnc(matches));
+			this.$el.html(templateFnc(days));
 		}
 	});
 

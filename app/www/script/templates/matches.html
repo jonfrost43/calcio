@@ -1,7 +1,10 @@
 <div>
-    {{~it :match}}
-        <p class="match">
-            {{=match.home.name}} <strong>{{=match.home.score}}:{{=match.away.score}}</strong> {{=match.away.name}}
-        </p>
+    {{~it :day}}
+        <h3>{{=day.date}}</h3>
+        {{~day.matches :match}}
+            <p class="match">
+                {{=match.home.name}} <strong>{{=match.home.score}}:{{=match.away.score}}</strong> {{=match.away.name}}
+            </p>
+        {{~}}
     {{~}}
 </div>
