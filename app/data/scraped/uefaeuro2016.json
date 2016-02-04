@@ -1,0 +1,830 @@
+[
+    {
+        "homeTeam": {
+            "id": 43,
+            "name": "France",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/FRA.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 113,
+            "name": "Romania",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ROU.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group A"
+    },
+    {
+        "homeTeam": {
+            "id": 2,
+            "name": "Albania",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ALB.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 128,
+            "name": "Switzerland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SUI.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group A"
+    },
+    {
+        "homeTeam": {
+            "id": 144,
+            "name": "Wales",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/WAL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 58836,
+            "name": "Slovakia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SVK.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group B"
+    },
+    {
+        "homeTeam": {
+            "id": 39,
+            "name": "England",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ENG.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 57451,
+            "name": "Russia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/RUS.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group B"
+    },
+    {
+        "homeTeam": {
+            "id": 135,
+            "name": "Turkey",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/TUR.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 56370,
+            "name": "Croatia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CRO.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group D"
+    },
+    {
+        "homeTeam": {
+            "id": 109,
+            "name": "Poland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 63,
+            "name": "Northern Ireland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/NIR.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group C"
+    },
+    {
+        "homeTeam": {
+            "id": 47,
+            "name": "Germany",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/GER.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 57166,
+            "name": "Ukraine",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/UKR.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group C"
+    },
+    {
+        "homeTeam": {
+            "id": 122,
+            "name": "Spain",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ESP.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 58837,
+            "name": "Czech Republic",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CZE.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group D"
+    },
+    {
+        "homeTeam": {
+            "id": 64,
+            "name": "Republic of Ireland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/IRL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 127,
+            "name": "Sweden",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SWE.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group E"
+    },
+    {
+        "homeTeam": {
+            "id": 13,
+            "name": "Belgium",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/BEL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 66,
+            "name": "Italy",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ITA.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group E"
+    },
+    {
+        "homeTeam": {
+            "id": 8,
+            "name": "Austria",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/AUT.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 57,
+            "name": "Hungary",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/HUN.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group F"
+    },
+    {
+        "homeTeam": {
+            "id": 110,
+            "name": "Portugal",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POR.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 58,
+            "name": "Iceland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ISL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group F"
+    },
+    {
+        "homeTeam": {
+            "id": 57451,
+            "name": "Russia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/RUS.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 58836,
+            "name": "Slovakia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SVK.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group B"
+    },
+    {
+        "homeTeam": {
+            "id": 113,
+            "name": "Romania",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ROU.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 128,
+            "name": "Switzerland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SUI.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group A"
+    },
+    {
+        "homeTeam": {
+            "id": 43,
+            "name": "France",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/FRA.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 2,
+            "name": "Albania",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ALB.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group A"
+    },
+    {
+        "homeTeam": {
+            "id": 39,
+            "name": "England",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ENG.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 144,
+            "name": "Wales",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/WAL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group B"
+    },
+    {
+        "homeTeam": {
+            "id": 57166,
+            "name": "Ukraine",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/UKR.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 63,
+            "name": "Northern Ireland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/NIR.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group C"
+    },
+    {
+        "homeTeam": {
+            "id": 47,
+            "name": "Germany",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/GER.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 109,
+            "name": "Poland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group C"
+    },
+    {
+        "homeTeam": {
+            "id": 66,
+            "name": "Italy",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ITA.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 127,
+            "name": "Sweden",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SWE.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group E"
+    },
+    {
+        "homeTeam": {
+            "id": 58837,
+            "name": "Czech Republic",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CZE.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 56370,
+            "name": "Croatia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CRO.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group D"
+    },
+    {
+        "homeTeam": {
+            "id": 122,
+            "name": "Spain",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ESP.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 135,
+            "name": "Turkey",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/TUR.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group D"
+    },
+    {
+        "homeTeam": {
+            "id": 13,
+            "name": "Belgium",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/BEL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 64,
+            "name": "Republic of Ireland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/IRL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group E"
+    },
+    {
+        "homeTeam": {
+            "id": 58,
+            "name": "Iceland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ISL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 57,
+            "name": "Hungary",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/HUN.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group F"
+    },
+    {
+        "homeTeam": {
+            "id": 110,
+            "name": "Portugal",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POR.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 8,
+            "name": "Austria",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/AUT.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group F"
+    },
+    {
+        "homeTeam": {
+            "id": 128,
+            "name": "Switzerland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SUI.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 43,
+            "name": "France",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/FRA.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group A"
+    },
+    {
+        "homeTeam": {
+            "id": 113,
+            "name": "Romania",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ROU.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 2,
+            "name": "Albania",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ALB.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group A"
+    },
+    {
+        "homeTeam": {
+            "id": 58836,
+            "name": "Slovakia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SVK.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 39,
+            "name": "England",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ENG.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group B"
+    },
+    {
+        "homeTeam": {
+            "id": 57451,
+            "name": "Russia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/RUS.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 144,
+            "name": "Wales",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/WAL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group B"
+    },
+    {
+        "homeTeam": {
+            "id": 63,
+            "name": "Northern Ireland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/NIR.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 47,
+            "name": "Germany",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/GER.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group C"
+    },
+    {
+        "homeTeam": {
+            "id": 57166,
+            "name": "Ukraine",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/UKR.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 109,
+            "name": "Poland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group C"
+    },
+    {
+        "homeTeam": {
+            "id": 56370,
+            "name": "Croatia",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CRO.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 122,
+            "name": "Spain",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ESP.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group D"
+    },
+    {
+        "homeTeam": {
+            "id": 58837,
+            "name": "Czech Republic",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CZE.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 135,
+            "name": "Turkey",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/TUR.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group D"
+    },
+    {
+        "homeTeam": {
+            "id": 58,
+            "name": "Iceland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ISL.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 8,
+            "name": "Austria",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/AUT.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group F"
+    },
+    {
+        "homeTeam": {
+            "id": 57,
+            "name": "Hungary",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/HUN.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 110,
+            "name": "Portugal",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POR.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group F"
+    },
+    {
+        "homeTeam": {
+            "id": 127,
+            "name": "Sweden",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SWE.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 13,
+            "name": "Belgium",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/BEL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group E"
+    },
+    {
+        "homeTeam": {
+            "id": 66,
+            "name": "Italy",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ITA.png",
+            "colour": "",
+            "players": []
+        },
+        "awayTeam": {
+            "id": 64,
+            "name": "Republic of Ireland",
+            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/IRL.png",
+            "colour": "",
+            "players": []
+        },
+        "state": null,
+        "goals": [],
+        "positions": [],
+        "phases": [],
+        "cards": [],
+        "substitutions": [],
+        "group": "Group E"
+    }
+]
