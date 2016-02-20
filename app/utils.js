@@ -28,8 +28,8 @@ exports.tablify = function(tables, match, index, array){
 		}) - 1;
 	}
 	var teams = tables[groupIndex].teams,
-		homeData = _.findWhere(teams, {name: homeTeam}),
-		awayData = _.findWhere(teams, {name: awayTeam});
+		homeData = _.find(teams, {name: homeTeam}),
+		awayData = _.find(teams, {name: awayTeam});
 
 	//create homeData if home team is new
 	if(!homeData){

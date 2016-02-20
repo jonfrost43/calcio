@@ -17,7 +17,7 @@ exports.handler = function(request, response){
 		}
 
 		if(request.params.format === undefined){
-			data = _.sortByOrder(data, function(match){
+			data = _.orderBy(data, function(match){
 				return new Date(match.date).toISOString().split('T')[0];
 			}, 'desc');
 
