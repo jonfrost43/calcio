@@ -3,7 +3,7 @@ var _ = require('lodash'),
 	tablify = require('./utils').tablify;
 
 exports.handler = function(request, response){
-	fs.readFile('app/data/' + request.params.competition + '.json', 'utf8', function(err, data){
+	fs.readFile('app/data/scraped/' + request.params.competition + '.json', 'utf8', function(err, data){
 		if(err){
 			console.log(err);
 			response.status(404).send('Sorry, we cannot find that!');
@@ -17,13 +17,9 @@ exports.handler = function(request, response){
 		}
 
 		if(request.params.format === undefined){
-			data = _.orderBy(data, function(match){
-				return new Date(match.date).toISOString().split('T')[0];
-			}, 'desc');
+			data = _.orderBy(data, 'timestamp');
 
-			data = _.groupBy(data, function(match){
-				return new Date(match.date).toISOString().split('T')[0];
-			});
+			data = _.groupBy(data, 'dateTime');
 
 			data = _.map(data, function(day, key){
 				return {

@@ -43,6 +43,10 @@ exports.tablify = function(tables, match, index, array){
 		teams.push(awayData);
 	}
 
+	if(match.isFuture){
+		return tables;
+	}
+
 	homeData.played++;
 	awayData.played++;
 
