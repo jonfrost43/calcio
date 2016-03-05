@@ -14,7 +14,7 @@ function($, component, doT, template, utils){
 			this.$el = $el;
 
 			$.ajax({
-				url: '/api/cl2015'
+				url: '/api/uefachampionsleague2016'
 			})
 			.then(this.render.bind(this));
 		},
@@ -22,8 +22,8 @@ function($, component, doT, template, utils){
 		render: function(days){
 			days.forEach(function(day){
 				day.matches.forEach(function(match){
-					match.home.score = match.home.goals ? match.home.goals.length : 0;
-					match.away.score = match.away.goals ? match.away.goals.length : 0;
+					match.home.score = match.home.goals ? match.home.goals.length : '???';
+					match.away.score = match.away.goals ? match.away.goals.length : '???';
 				});
 			});
 
