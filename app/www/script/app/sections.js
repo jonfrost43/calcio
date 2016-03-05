@@ -18,10 +18,7 @@ function($, component, nav){
 
 			nav = nav($el.find('nav'));
 
-			nav.$el.on('click', 'a', function(e){
-				e.preventDefault();
-				this.goTo($(e.target).parent().index());
-			}.bind(this));
+			$(document).on('nav/change', this.goTo);
 
             $sections.width(sw);
             $container.width(sw * $sections.length).css({
@@ -39,13 +36,13 @@ function($, component, nav){
                     swipeRight: -1
                 };
 
-                $container.css('left', sw * (currIndex + direction[e.type]) * -1);
-                currIndex = currIndex + direction[e.type];
-				nav.goTo(currIndex);
-            });
+                var index = currIndex + direction[e.type];
+				this.goTo(e, index);
+				$(document).trigger('section/change', currIndex);
+            }.bind(this));
 		},
 
-        goTo: function(index){
+        goTo: function(e, index){
             if(index === currIndex || index < 0 || index > $sections.length-1){
                 return;
             }

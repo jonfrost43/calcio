@@ -10,8 +10,6 @@ function($, component){
 
 	return component({
 		initialise: function($el, opts){
-			console.log(this);
-
 			$activeEl = $el.find('.active');
 			$links = $el.find('a');
 
@@ -23,15 +21,16 @@ function($, component){
 				.removeClass('hidden');
 
 			$el.on('click', 'a', function(e){
+				var index = $(e.target).parent().index();
 				e.preventDefault();
-				this.goTo($(e.target).parent().index());
+				this.goTo(e, index);
+				$(document).trigger('nav/change', index);
 			}.bind(this));
 
+			$(document).on('section/change', this.goTo);
 		},
 
-		goTo: function(index){
-			console.log(index);
-
+		goTo: function(e, index){
 			$activeEl
 				.width($links.eq(index).width())
 				.css({
