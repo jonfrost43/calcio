@@ -1,0 +1,960 @@
+[
+    {
+        "id": "2016923",
+        "date": "17 September 2015",
+        "group": "Group A",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Fenerbahçe",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 101336,
+                        "name": "Nani",
+                        "shirtNumber": 17,
+                        "position": "4"
+                    },
+                    "time": 1442511696000
+                }
+            ]
+        },
+        "away": {
+            "name": "Molde",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 102071,
+                        "name": "Tommy Høiland",
+                        "shirtNumber": 20,
+                        "position": "4"
+                    },
+                    "time": 1442511377000
+                },
+                {
+                    "scorer": {
+                        "id": 250055967,
+                        "name": "Mohamed Elyounoussi",
+                        "shirtNumber": 24,
+                        "position": "4"
+                    },
+                    "time": 1442513364000
+                },
+                {
+                    "scorer": {
+                        "id": 250041809,
+                        "name": "Martin Linnes",
+                        "shirtNumber": 14,
+                        "position": "2"
+                    },
+                    "time": 1442514073000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016924",
+        "date": "17 September 2015",
+        "group": "Group A",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Ajax",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250012632,
+                        "name": "Viktor Fischer",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442510714000
+                },
+                {
+                    "scorer": {
+                        "id": 70048,
+                        "name": "Lasse Schöne",
+                        "shirtNumber": 20,
+                        "position": "4"
+                    },
+                    "time": 1442515190000
+                }
+            ]
+        },
+        "away": {
+            "name": "Celtic",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 1909623,
+                        "name": "Nir Bitton",
+                        "shirtNumber": 6,
+                        "position": "3"
+                    },
+                    "time": 1442509706000
+                },
+                {
+                    "scorer": {
+                        "id": 97687,
+                        "name": "Mikael Lustig",
+                        "shirtNumber": 23,
+                        "position": "2"
+                    },
+                    "time": 1442511775000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016925",
+        "date": "17 September 2015",
+        "group": "Group B",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Bordeaux",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 99564,
+                        "name": "Jussiê",
+                        "shirtNumber": 20,
+                        "position": "4"
+                    },
+                    "time": 1442515086000
+                }
+            ]
+        },
+        "away": {
+            "name": "Liverpool",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 99208,
+                        "name": "Adam Lallana",
+                        "shirtNumber": 20,
+                        "position": "3"
+                    },
+                    "time": 1442514152000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016926",
+        "date": "17 September 2015",
+        "group": "Group B",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Sion",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250033005,
+                        "name": "Moussa Konaté",
+                        "shirtNumber": 14,
+                        "position": "4"
+                    },
+                    "time": 1442509903000
+                },
+                {
+                    "scorer": {
+                        "id": 250033005,
+                        "name": "Moussa Konaté",
+                        "shirtNumber": 14,
+                        "position": "4"
+                    },
+                    "time": 1442515120000
+                }
+            ]
+        },
+        "away": {
+            "name": "Rubin",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250011534,
+                        "name": "Maksim Kanunnikov",
+                        "shirtNumber": 99,
+                        "position": "4"
+                    },
+                    "time": 1442514150000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016927",
+        "date": "17 September 2015",
+        "group": "Group C",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Qäbälä",
+            "goals": []
+        },
+        "away": {
+            "name": "PAOK",
+            "goals": []
+        }
+    },
+    {
+        "id": "2016928",
+        "date": "17 September 2015",
+        "group": "Group C",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Dortmund",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250055962,
+                        "name": "Matthias Ginter",
+                        "shirtNumber": 28,
+                        "position": "2"
+                    },
+                    "time": 1442511946000
+                },
+                {
+                    "scorer": {
+                        "id": 250017004,
+                        "name": "Park Joo Ho",
+                        "shirtNumber": 3,
+                        "position": "2"
+                    },
+                    "time": 1442515869000
+                }
+            ]
+        },
+        "away": {
+            "name": "Krasnodar",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 106215,
+                        "name": "Pavel Mamaev",
+                        "shirtNumber": 7,
+                        "position": "3"
+                    },
+                    "time": 1442509884000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016929",
+        "date": "17 September 2015",
+        "group": "Group D",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Midtjylland",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 64305,
+                        "name": "Morten Rasmussen",
+                        "shirtNumber": 9,
+                        "position": "4"
+                    },
+                    "time": 1442513798000
+                }
+            ]
+        },
+        "away": {
+            "name": "Legia",
+            "goals": []
+        }
+    },
+    {
+        "id": "2016930",
+        "date": "17 September 2015",
+        "group": "Group D",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Napoli",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 1905868,
+                        "name": "José Callejón",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442509525000
+                },
+                {
+                    "scorer": {
+                        "id": 250019924,
+                        "name": "Dries Mertens",
+                        "shirtNumber": 14,
+                        "position": "3"
+                    },
+                    "time": 1442510324000
+                },
+                {
+                    "scorer": {
+                        "id": 250019924,
+                        "name": "Dries Mertens",
+                        "shirtNumber": 14,
+                        "position": "3"
+                    },
+                    "time": 1442510715000
+                },
+                {
+                    "scorer": {
+                        "id": 73965,
+                        "name": "Marek Hamšík",
+                        "shirtNumber": 17,
+                        "position": "3"
+                    },
+                    "time": 1442513342000
+                },
+                {
+                    "scorer": {
+                        "id": 1905868,
+                        "name": "José Callejón",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442514778000
+                }
+            ]
+        },
+        "away": {
+            "name": "Club Brugge",
+            "goals": []
+        }
+    },
+    {
+        "id": "2016931",
+        "date": "17 September 2015",
+        "group": "Group E",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Rapid Wien",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 150015261,
+                        "name": "Stefan Schwab",
+                        "shirtNumber": 8,
+                        "position": "3"
+                    },
+                    "time": 1442513200000
+                },
+                {
+                    "scorer": {
+                        "id": 47565,
+                        "name": "Steffen Hofmann",
+                        "shirtNumber": 11,
+                        "position": "3"
+                    },
+                    "time": 1442513393000
+                }
+            ]
+        },
+        "away": {
+            "name": "Villarreal",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250064061,
+                        "name": "Léo Baptistão",
+                        "shirtNumber": 10,
+                        "position": "4"
+                    },
+                    "time": 1442511887000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016932",
+        "date": "17 September 2015",
+        "group": "Group E",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Plzeň",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250003691,
+                        "name": "Tomáš Hořava",
+                        "shirtNumber": 7,
+                        "position": "3"
+                    },
+                    "time": 1442511343000
+                },
+                {
+                    "scorer": {
+                        "id": 95687,
+                        "name": "Milan Petržela",
+                        "shirtNumber": 11,
+                        "position": "3"
+                    },
+                    "time": 1442514662000
+                }
+            ]
+        },
+        "away": {
+            "name": "Dinamo Minsk",
+            "goals": []
+        }
+    },
+    {
+        "id": "2016933",
+        "date": "17 September 2015",
+        "group": "Group F",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Liberec",
+            "goals": []
+        },
+        "away": {
+            "name": "Braga",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250063447,
+                        "name": "Rafa Silva",
+                        "shirtNumber": 18,
+                        "position": "3"
+                    },
+                    "time": 1442513956000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016934",
+        "date": "17 September 2015",
+        "group": "Group F",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Groningen",
+            "goals": []
+        },
+        "away": {
+            "name": "Marseille",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250086986,
+                        "name": "Georges-Kévin N'Koudou",
+                        "shirtNumber": 14,
+                        "position": "3"
+                    },
+                    "time": 1442510670000
+                },
+                {
+                    "scorer": {
+                        "id": 250067936,
+                        "name": "Lucas Ocampos",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442511536000
+                },
+                {
+                    "scorer": {
+                        "id": 250026360,
+                        "name": "Romain Alessandrini",
+                        "shirtNumber": 11,
+                        "position": "3"
+                    },
+                    "time": 1442513835000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016935",
+        "date": "17 September 2015",
+        "group": "Group G",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Dnipro",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 105931,
+                        "name": "Yevhen Seleznyov",
+                        "shirtNumber": 11,
+                        "position": "4"
+                    },
+                    "time": 1442523270000
+                }
+            ]
+        },
+        "away": {
+            "name": "Lazio",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250059163,
+                        "name": "Sergej Milinković-Savić",
+                        "shirtNumber": 21,
+                        "position": "3"
+                    },
+                    "time": 1442518736000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016936",
+        "date": "17 September 2015",
+        "group": "Group G",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "St-Étienne",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 1905912,
+                        "name": "Robert Berić",
+                        "shirtNumber": 27,
+                        "position": "4"
+                    },
+                    "time": 1442516945000
+                },
+                {
+                    "scorer": {
+                        "id": 1900749,
+                        "name": "Nolan Roux",
+                        "shirtNumber": 9,
+                        "position": "4"
+                    },
+                    "time": 1442522944000
+                }
+            ]
+        },
+        "away": {
+            "name": "Rosenborg",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 1902663,
+                        "name": "Tobias Mikkelsen",
+                        "shirtNumber": 11,
+                        "position": "4"
+                    },
+                    "time": 1442517664000
+                },
+                {
+                    "scorer": {
+                        "id": 250014312,
+                        "name": "Jonas Svensson",
+                        "shirtNumber": 22,
+                        "position": "2"
+                    },
+                    "time": 1442522462000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016937",
+        "date": "17 September 2015",
+        "group": "Group H",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Sporting CP",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250075864,
+                        "name": "Fredy Montero",
+                        "shirtNumber": 10,
+                        "position": "4"
+                    },
+                    "time": 1442520682000
+                }
+            ]
+        },
+        "away": {
+            "name": "Lokomotiv Moskva",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 72363,
+                        "name": "Aleksandr Samedov",
+                        "shirtNumber": 19,
+                        "position": "3"
+                    },
+                    "time": 1442517496000
+                },
+                {
+                    "scorer": {
+                        "id": 72363,
+                        "name": "Aleksandr Samedov",
+                        "shirtNumber": 19,
+                        "position": "3"
+                    },
+                    "time": 1442521020000
+                },
+                {
+                    "scorer": {
+                        "id": 250074275,
+                        "name": "Baye Oumar Niasse",
+                        "shirtNumber": 21,
+                        "position": "4"
+                    },
+                    "time": 1442521603000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016938",
+        "date": "17 September 2015",
+        "group": "Group H",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Skënderbeu",
+            "goals": []
+        },
+        "away": {
+            "name": "Beşiktaş",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 1905789,
+                        "name": "José Sosa",
+                        "shirtNumber": 5,
+                        "position": "3"
+                    },
+                    "time": 1442518429000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016939",
+        "date": "17 September 2015",
+        "group": "Group I",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Fiorentina",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 97212,
+                        "name": "Nikola Kalinić",
+                        "shirtNumber": 9,
+                        "position": "4"
+                    },
+                    "time": 1442516891000
+                }
+            ]
+        },
+        "away": {
+            "name": "Basel",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 97142,
+                        "name": "Birkir Bjarnason",
+                        "shirtNumber": 8,
+                        "position": "3"
+                    },
+                    "time": 1442522031000
+                },
+                {
+                    "scorer": {
+                        "id": 250056993,
+                        "name": "Mohamed Elneny ",
+                        "shirtNumber": 33,
+                        "position": "3"
+                    },
+                    "time": 1442522468000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016940",
+        "date": "17 September 2015",
+        "group": "Group I",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Lech",
+            "goals": []
+        },
+        "away": {
+            "name": "Belenenses",
+            "goals": []
+        }
+    },
+    {
+        "id": "2016941",
+        "date": "17 September 2015",
+        "group": "Group J",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Anderlecht",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 104892,
+                        "name": "Guillaume Gillet",
+                        "shirtNumber": 30,
+                        "position": "3"
+                    },
+                    "time": 1442517364000
+                }
+            ]
+        },
+        "away": {
+            "name": "Monaco",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250011730,
+                        "name": "Lacina Traoré",
+                        "shirtNumber": 19,
+                        "position": "4"
+                    },
+                    "time": 1442522778000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016942",
+        "date": "17 September 2015",
+        "group": "Group J",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Tottenham",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250043463,
+                        "name": "Son Heung-Min          ",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442518347000
+                },
+                {
+                    "scorer": {
+                        "id": 250043463,
+                        "name": "Son Heung-Min          ",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442518479000
+                },
+                {
+                    "scorer": {
+                        "id": 250038224,
+                        "name": "Erik Lamela",
+                        "shirtNumber": 11,
+                        "position": "3"
+                    },
+                    "time": 1442522808000
+                }
+            ]
+        },
+        "away": {
+            "name": "Qarabağ",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250060170,
+                        "name": "Richard Almeida",
+                        "shirtNumber": 20,
+                        "position": "3"
+                    },
+                    "time": 1442517082000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016943",
+        "date": "17 September 2015",
+        "group": "Group K",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "APOEL",
+            "goals": []
+        },
+        "away": {
+            "name": "Schalke",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250018116,
+                        "name": "Joël Matip",
+                        "shirtNumber": 32,
+                        "position": "2"
+                    },
+                    "time": 1442518435000
+                },
+                {
+                    "scorer": {
+                        "id": 53931,
+                        "name": "Klaas-Jan Huntelaar",
+                        "shirtNumber": 25,
+                        "position": "4"
+                    },
+                    "time": 1442518862000
+                },
+                {
+                    "scorer": {
+                        "id": 53931,
+                        "name": "Klaas-Jan Huntelaar",
+                        "shirtNumber": 25,
+                        "position": "4"
+                    },
+                    "time": 1442522064000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016944",
+        "date": "17 September 2015",
+        "group": "Group K",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Asteras",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250073026,
+                        "name": "Pablo Mazza",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442516798000
+                }
+            ]
+        },
+        "away": {
+            "name": "Sparta Praha",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 52596,
+                        "name": "David Lafata",
+                        "shirtNumber": 21,
+                        "position": "4"
+                    },
+                    "time": 1442521052000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016945",
+        "date": "17 September 2015",
+        "group": "Group L",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Partizan",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250007771,
+                        "name": "Abubakar Oumaru",
+                        "shirtNumber": 15,
+                        "position": "4"
+                    },
+                    "time": 1442517327000
+                },
+                {
+                    "scorer": {
+                        "id": 250007771,
+                        "name": "Abubakar Oumaru",
+                        "shirtNumber": 15,
+                        "position": "4"
+                    },
+                    "time": 1442519041000
+                },
+                {
+                    "scorer": {
+                        "id": 250042213,
+                        "name": "Andrija Živković",
+                        "shirtNumber": 17,
+                        "position": "3"
+                    },
+                    "time": 1442523107000
+                }
+            ]
+        },
+        "away": {
+            "name": "AZ",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250005340,
+                        "name": "Jop van der Linden",
+                        "shirtNumber": 14,
+                        "position": "2"
+                    },
+                    "time": 1442518718000
+                },
+                {
+                    "scorer": {
+                        "id": 250004763,
+                        "name": "Markus Henriksen",
+                        "shirtNumber": 10,
+                        "position": "3"
+                    },
+                    "time": 1442523349000
+                }
+            ]
+        }
+    },
+    {
+        "id": "2016946",
+        "date": "17 September 2015",
+        "group": "Group L",
+        "state": "FULL_TIME",
+        "home": {
+            "name": "Athletic",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 250015849,
+                        "name": "Aritz Aduriz",
+                        "shirtNumber": 20,
+                        "position": "4"
+                    },
+                    "time": 1442520955000
+                },
+                {
+                    "scorer": {
+                        "id": 250015849,
+                        "name": "Aritz Aduriz",
+                        "shirtNumber": 20,
+                        "position": "4"
+                    },
+                    "time": 1442521613000
+                },
+                {
+                    "scorer": {
+                        "id": 98408,
+                        "name": "Markel Susaeta",
+                        "shirtNumber": 14,
+                        "position": "3"
+                    },
+                    "time": 1442523037000
+                }
+            ]
+        },
+        "away": {
+            "name": "Augsburg",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": 58615,
+                        "name": "Halil Altıntop",
+                        "shirtNumber": 7,
+                        "position": "4"
+                    },
+                    "time": 1442517630000
+                }
+            ]
+        }
+    }
+]

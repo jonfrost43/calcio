@@ -5,7 +5,7 @@ var request = function(path){
 		host: 'www.uefa.com',
 		path: path
 	};
-	
+
 	return new Promise(function(resolve, reject){
 
 		var req = http.request(options, function(res){
@@ -18,7 +18,10 @@ var request = function(path){
 			});
 
 			res.on('end', function(){
-				resolve(completeResponse);
+				resolve({
+					ok: res.statusCode === 200,
+					body: completeResponse
+				});
 			});
 		});
 

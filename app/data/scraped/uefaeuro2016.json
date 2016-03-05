@@ -1,830 +1,542 @@
 [
     {
-        "homeTeam": {
-            "id": 43,
-            "name": "France",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/FRA.png",
-            "colour": "",
-            "players": []
+        "id": "2017877",
+        "dateTime": "10 June 2016",
+        "timestamp": 1465516800000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group A",
+        "home": {
+            "name": "France"
         },
-        "awayTeam": {
-            "id": 113,
-            "name": "Romania",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ROU.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Romania"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group A"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017877.json"
     },
     {
-        "homeTeam": {
-            "id": 2,
-            "name": "Albania",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ALB.png",
-            "colour": "",
-            "players": []
+        "id": "2017878",
+        "dateTime": "11 June 2016",
+        "timestamp": 1465603200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group A",
+        "home": {
+            "name": "Albania"
         },
-        "awayTeam": {
-            "id": 128,
-            "name": "Switzerland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SUI.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Switzerland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group A"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017878.json"
     },
     {
-        "homeTeam": {
-            "id": 144,
-            "name": "Wales",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/WAL.png",
-            "colour": "",
-            "players": []
+        "id": "2017880",
+        "dateTime": "11 June 2016",
+        "timestamp": 1465603200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group B",
+        "home": {
+            "name": "Wales"
         },
-        "awayTeam": {
-            "id": 58836,
-            "name": "Slovakia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SVK.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Slovakia"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group B"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017880.json"
     },
     {
-        "homeTeam": {
-            "id": 39,
-            "name": "England",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ENG.png",
-            "colour": "",
-            "players": []
+        "id": "2017879",
+        "dateTime": "11 June 2016",
+        "timestamp": 1465603200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group B",
+        "home": {
+            "name": "England"
         },
-        "awayTeam": {
-            "id": 57451,
-            "name": "Russia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/RUS.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Russia"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group B"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017879.json"
     },
     {
-        "homeTeam": {
-            "id": 135,
-            "name": "Turkey",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/TUR.png",
-            "colour": "",
-            "players": []
+        "id": "2017884",
+        "dateTime": "12 June 2016",
+        "timestamp": 1465689600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group D",
+        "home": {
+            "name": "Turkey"
         },
-        "awayTeam": {
-            "id": 56370,
-            "name": "Croatia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CRO.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Croatia"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group D"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017884.json"
     },
     {
-        "homeTeam": {
-            "id": 109,
-            "name": "Poland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POL.png",
-            "colour": "",
-            "players": []
+        "id": "2017882",
+        "dateTime": "12 June 2016",
+        "timestamp": 1465689600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group C",
+        "home": {
+            "name": "Poland"
         },
-        "awayTeam": {
-            "id": 63,
-            "name": "Northern Ireland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/NIR.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Northern Ireland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group C"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017882.json"
     },
     {
-        "homeTeam": {
-            "id": 47,
-            "name": "Germany",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/GER.png",
-            "colour": "",
-            "players": []
+        "id": "2017881",
+        "dateTime": "12 June 2016",
+        "timestamp": 1465689600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group C",
+        "home": {
+            "name": "Germany"
         },
-        "awayTeam": {
-            "id": 57166,
-            "name": "Ukraine",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/UKR.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Ukraine"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group C"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017881.json"
     },
     {
-        "homeTeam": {
-            "id": 122,
-            "name": "Spain",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ESP.png",
-            "colour": "",
-            "players": []
+        "id": "2017883",
+        "dateTime": "13 June 2016",
+        "timestamp": 1465776000000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group D",
+        "home": {
+            "name": "Spain"
         },
-        "awayTeam": {
-            "id": 58837,
-            "name": "Czech Republic",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CZE.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Czech Republic"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group D"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017883.json"
     },
     {
-        "homeTeam": {
-            "id": 64,
-            "name": "Republic of Ireland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/IRL.png",
-            "colour": "",
-            "players": []
+        "id": "2017954",
+        "dateTime": "13 June 2016",
+        "timestamp": 1465776000000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group E",
+        "home": {
+            "name": "Republic of Ireland"
         },
-        "awayTeam": {
-            "id": 127,
-            "name": "Sweden",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SWE.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Sweden"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group E"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017954.json"
     },
     {
-        "homeTeam": {
-            "id": 13,
-            "name": "Belgium",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/BEL.png",
-            "colour": "",
-            "players": []
+        "id": "2017953",
+        "dateTime": "13 June 2016",
+        "timestamp": 1465776000000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group E",
+        "home": {
+            "name": "Belgium"
         },
-        "awayTeam": {
-            "id": 66,
-            "name": "Italy",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ITA.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Italy"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group E"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017953.json"
     },
     {
-        "homeTeam": {
-            "id": 8,
-            "name": "Austria",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/AUT.png",
-            "colour": "",
-            "players": []
+        "id": "2017960",
+        "dateTime": "14 June 2016",
+        "timestamp": 1465862400000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group F",
+        "home": {
+            "name": "Austria"
         },
-        "awayTeam": {
-            "id": 57,
-            "name": "Hungary",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/HUN.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Hungary"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group F"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017960.json"
     },
     {
-        "homeTeam": {
-            "id": 110,
-            "name": "Portugal",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POR.png",
-            "colour": "",
-            "players": []
+        "id": "2017959",
+        "dateTime": "14 June 2016",
+        "timestamp": 1465862400000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group F",
+        "home": {
+            "name": "Portugal"
         },
-        "awayTeam": {
-            "id": 58,
-            "name": "Iceland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ISL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Iceland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group F"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017959.json"
     },
     {
-        "homeTeam": {
-            "id": 57451,
-            "name": "Russia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/RUS.png",
-            "colour": "",
-            "players": []
+        "id": "2017888",
+        "dateTime": "15 June 2016",
+        "timestamp": 1465948800000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group B",
+        "home": {
+            "name": "Russia"
         },
-        "awayTeam": {
-            "id": 58836,
-            "name": "Slovakia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SVK.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Slovakia"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group B"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017888.json"
     },
     {
-        "homeTeam": {
-            "id": 113,
-            "name": "Romania",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ROU.png",
-            "colour": "",
-            "players": []
+        "id": "2017886",
+        "dateTime": "15 June 2016",
+        "timestamp": 1465948800000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group A",
+        "home": {
+            "name": "Romania"
         },
-        "awayTeam": {
-            "id": 128,
-            "name": "Switzerland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SUI.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Switzerland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group A"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017886.json"
     },
     {
-        "homeTeam": {
-            "id": 43,
-            "name": "France",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/FRA.png",
-            "colour": "",
-            "players": []
+        "id": "2017885",
+        "dateTime": "15 June 2016",
+        "timestamp": 1465948800000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group A",
+        "home": {
+            "name": "France"
         },
-        "awayTeam": {
-            "id": 2,
-            "name": "Albania",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ALB.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Albania"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group A"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017885.json"
     },
     {
-        "homeTeam": {
-            "id": 39,
-            "name": "England",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ENG.png",
-            "colour": "",
-            "players": []
+        "id": "2017887",
+        "dateTime": "16 June 2016",
+        "timestamp": 1466035200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group B",
+        "home": {
+            "name": "England"
         },
-        "awayTeam": {
-            "id": 144,
-            "name": "Wales",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/WAL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Wales"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group B"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017887.json"
     },
     {
-        "homeTeam": {
-            "id": 57166,
-            "name": "Ukraine",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/UKR.png",
-            "colour": "",
-            "players": []
+        "id": "2017890",
+        "dateTime": "16 June 2016",
+        "timestamp": 1466035200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group C",
+        "home": {
+            "name": "Ukraine"
         },
-        "awayTeam": {
-            "id": 63,
-            "name": "Northern Ireland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/NIR.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Northern Ireland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group C"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017890.json"
     },
     {
-        "homeTeam": {
-            "id": 47,
-            "name": "Germany",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/GER.png",
-            "colour": "",
-            "players": []
+        "id": "2017889",
+        "dateTime": "16 June 2016",
+        "timestamp": 1466035200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group C",
+        "home": {
+            "name": "Germany"
         },
-        "awayTeam": {
-            "id": 109,
-            "name": "Poland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Poland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group C"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017889.json"
     },
     {
-        "homeTeam": {
-            "id": 66,
-            "name": "Italy",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ITA.png",
-            "colour": "",
-            "players": []
+        "id": "2017956",
+        "dateTime": "17 June 2016",
+        "timestamp": 1466121600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group E",
+        "home": {
+            "name": "Italy"
         },
-        "awayTeam": {
-            "id": 127,
-            "name": "Sweden",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SWE.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Sweden"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group E"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017956.json"
     },
     {
-        "homeTeam": {
-            "id": 58837,
-            "name": "Czech Republic",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CZE.png",
-            "colour": "",
-            "players": []
+        "id": "2017892",
+        "dateTime": "17 June 2016",
+        "timestamp": 1466121600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group D",
+        "home": {
+            "name": "Czech Republic"
         },
-        "awayTeam": {
-            "id": 56370,
-            "name": "Croatia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CRO.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Croatia"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group D"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017892.json"
     },
     {
-        "homeTeam": {
-            "id": 122,
-            "name": "Spain",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ESP.png",
-            "colour": "",
-            "players": []
+        "id": "2017891",
+        "dateTime": "17 June 2016",
+        "timestamp": 1466121600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group D",
+        "home": {
+            "name": "Spain"
         },
-        "awayTeam": {
-            "id": 135,
-            "name": "Turkey",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/TUR.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Turkey"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group D"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017891.json"
     },
     {
-        "homeTeam": {
-            "id": 13,
-            "name": "Belgium",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/BEL.png",
-            "colour": "",
-            "players": []
+        "id": "2017955",
+        "dateTime": "18 June 2016",
+        "timestamp": 1466208000000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group E",
+        "home": {
+            "name": "Belgium"
         },
-        "awayTeam": {
-            "id": 64,
-            "name": "Republic of Ireland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/IRL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Republic of Ireland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group E"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017955.json"
     },
     {
-        "homeTeam": {
-            "id": 58,
-            "name": "Iceland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ISL.png",
-            "colour": "",
-            "players": []
+        "id": "2017962",
+        "dateTime": "18 June 2016",
+        "timestamp": 1466208000000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group F",
+        "home": {
+            "name": "Iceland"
         },
-        "awayTeam": {
-            "id": 57,
-            "name": "Hungary",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/HUN.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Hungary"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group F"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017962.json"
     },
     {
-        "homeTeam": {
-            "id": 110,
-            "name": "Portugal",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POR.png",
-            "colour": "",
-            "players": []
+        "id": "2017961",
+        "dateTime": "18 June 2016",
+        "timestamp": 1466208000000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group F",
+        "home": {
+            "name": "Portugal"
         },
-        "awayTeam": {
-            "id": 8,
-            "name": "Austria",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/AUT.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Austria"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group F"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017961.json"
     },
     {
-        "homeTeam": {
-            "id": 128,
-            "name": "Switzerland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SUI.png",
-            "colour": "",
-            "players": []
+        "id": "2017893",
+        "dateTime": "19 June 2016",
+        "timestamp": 1466294400000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group A",
+        "home": {
+            "name": "Switzerland"
         },
-        "awayTeam": {
-            "id": 43,
-            "name": "France",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/FRA.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "France"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group A"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017893.json"
     },
     {
-        "homeTeam": {
-            "id": 113,
-            "name": "Romania",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ROU.png",
-            "colour": "",
-            "players": []
+        "id": "2017894",
+        "dateTime": "19 June 2016",
+        "timestamp": 1466294400000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group A",
+        "home": {
+            "name": "Romania"
         },
-        "awayTeam": {
-            "id": 2,
-            "name": "Albania",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ALB.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Albania"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group A"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017894.json"
     },
     {
-        "homeTeam": {
-            "id": 58836,
-            "name": "Slovakia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SVK.png",
-            "colour": "",
-            "players": []
+        "id": "2017895",
+        "dateTime": "20 June 2016",
+        "timestamp": 1466380800000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group B",
+        "home": {
+            "name": "Slovakia"
         },
-        "awayTeam": {
-            "id": 39,
-            "name": "England",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ENG.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "England"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group B"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017895.json"
     },
     {
-        "homeTeam": {
-            "id": 57451,
-            "name": "Russia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/RUS.png",
-            "colour": "",
-            "players": []
+        "id": "2017896",
+        "dateTime": "20 June 2016",
+        "timestamp": 1466380800000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group B",
+        "home": {
+            "name": "Russia"
         },
-        "awayTeam": {
-            "id": 144,
-            "name": "Wales",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/WAL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Wales"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group B"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017896.json"
     },
     {
-        "homeTeam": {
-            "id": 63,
-            "name": "Northern Ireland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/NIR.png",
-            "colour": "",
-            "players": []
+        "id": "2017897",
+        "dateTime": "21 June 2016",
+        "timestamp": 1466467200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group C",
+        "home": {
+            "name": "Northern Ireland"
         },
-        "awayTeam": {
-            "id": 47,
-            "name": "Germany",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/GER.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Germany"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group C"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017897.json"
     },
     {
-        "homeTeam": {
-            "id": 57166,
-            "name": "Ukraine",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/UKR.png",
-            "colour": "",
-            "players": []
+        "id": "2017898",
+        "dateTime": "21 June 2016",
+        "timestamp": 1466467200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group C",
+        "home": {
+            "name": "Ukraine"
         },
-        "awayTeam": {
-            "id": 109,
-            "name": "Poland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Poland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group C"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017898.json"
     },
     {
-        "homeTeam": {
-            "id": 56370,
-            "name": "Croatia",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CRO.png",
-            "colour": "",
-            "players": []
+        "id": "2017899",
+        "dateTime": "21 June 2016",
+        "timestamp": 1466467200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group D",
+        "home": {
+            "name": "Croatia"
         },
-        "awayTeam": {
-            "id": 122,
-            "name": "Spain",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ESP.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Spain"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group D"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017899.json"
     },
     {
-        "homeTeam": {
-            "id": 58837,
-            "name": "Czech Republic",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/CZE.png",
-            "colour": "",
-            "players": []
+        "id": "2017900",
+        "dateTime": "21 June 2016",
+        "timestamp": 1466467200000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group D",
+        "home": {
+            "name": "Czech Republic"
         },
-        "awayTeam": {
-            "id": 135,
-            "name": "Turkey",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/TUR.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Turkey"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group D"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017900.json"
     },
     {
-        "homeTeam": {
-            "id": 58,
-            "name": "Iceland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ISL.png",
-            "colour": "",
-            "players": []
+        "id": "2017963",
+        "dateTime": "22 June 2016",
+        "timestamp": 1466553600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group F",
+        "home": {
+            "name": "Iceland"
         },
-        "awayTeam": {
-            "id": 8,
-            "name": "Austria",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/AUT.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Austria"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group F"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017963.json"
     },
     {
-        "homeTeam": {
-            "id": 57,
-            "name": "Hungary",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/HUN.png",
-            "colour": "",
-            "players": []
+        "id": "2017964",
+        "dateTime": "22 June 2016",
+        "timestamp": 1466553600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group F",
+        "home": {
+            "name": "Hungary"
         },
-        "awayTeam": {
-            "id": 110,
-            "name": "Portugal",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/POR.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Portugal"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group F"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017964.json"
     },
     {
-        "homeTeam": {
-            "id": 127,
-            "name": "Sweden",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/SWE.png",
-            "colour": "",
-            "players": []
+        "id": "2017957",
+        "dateTime": "22 June 2016",
+        "timestamp": 1466553600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group E",
+        "home": {
+            "name": "Sweden"
         },
-        "awayTeam": {
-            "id": 13,
-            "name": "Belgium",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/BEL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Belgium"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group E"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017957.json"
     },
     {
-        "homeTeam": {
-            "id": 66,
-            "name": "Italy",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/ITA.png",
-            "colour": "",
-            "players": []
+        "id": "2017958",
+        "dateTime": "22 June 2016",
+        "timestamp": 1466553600000,
+        "isFuture": true,
+        "round": "Final tournament - Group stage",
+        "group": "Group E",
+        "home": {
+            "name": "Italy"
         },
-        "awayTeam": {
-            "id": 64,
-            "name": "Republic of Ireland",
-            "flagUrl": "http://img.uefa.com/imgml/flags/32x32/IRL.png",
-            "colour": "",
-            "players": []
+        "away": {
+            "name": "Republic of Ireland"
         },
-        "state": null,
-        "goals": [],
-        "positions": [],
-        "phases": [],
-        "cards": [],
-        "substitutions": [],
-        "group": "Group E"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017958.json"
     }
 ]
