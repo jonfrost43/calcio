@@ -1,9 +1,10 @@
 define([
 	'jquery',
+	'underscore',
 	'app/component',
 	'app/nav'
 ],
-function($, component, nav){
+function($, _, component, nav){
 
     var $container,
         $sections,
@@ -19,12 +20,9 @@ function($, component, nav){
 			nav = nav($el.find('nav'));
 
 			$(document).on('nav/change', this.goTo);
+			$(window).on('resize', this.resize);
 
-            $sections.width(sw);
-            $container.width(sw * $sections.length).css({
-                'position': 'relative',
-                'left': sw * currIndex * -1
-            });
+            this.resize();
 
             $('#main').on('swipeLeft swipeRight', function(e){
                 if(currIndex === 0 && e.type === 'swipeRight' || currIndex === $sections.length-1 && e.type === 'swipeLeft'){
@@ -49,7 +47,18 @@ function($, component, nav){
 
             $container.css('left', sw * index * -1);
             currIndex = index;
-        }
+        },
+
+		resize: function(){
+			sw = $(document).width();
+
+			$sections.width(sw);
+
+            $container.width(sw * $sections.length).css({
+                'position': 'relative',
+                'left': sw * currIndex * -1
+            });
+		}
 	});
 
 });

@@ -28,6 +28,7 @@ function($, component){
 			}.bind(this));
 
 			$(document).on('section/change', this.goTo);
+			$(window).on('resize', this.resize);
 		},
 
 		goTo: function(e, index){
@@ -38,6 +39,12 @@ function($, component){
 				});
 
 			activeIndex = index;
+		},
+
+		resize: function(){
+			$activeEl.css({
+				left: $links.eq(activeIndex).position().left
+			});
 		}
 	});
 
