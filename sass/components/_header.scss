@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    nav {
+        background-color: #FF917D;
+    	position: relative;
+
+    	ul {
+    		padding: 0 0 2px;
+    	}
+
+        li {
+            display: inline-block;
+            padding: 0 10px;
+
+            a {
+                display: inline-block;
+                text-transform: uppercase;
+                line-height: 2;
+
+                color: #111;
+            }
+        }
+
+    	.active {
+    		transition: all 0.25s ease;
+    		position: absolute;
+    		bottom: 0;
+    		left: 0;
+    		height: 2px;
+    		background: #111;
+
+    		&.hidden {
+    			height: 0px;
+    		}
+    	}
+    }
+}

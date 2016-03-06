@@ -1,14 +1,12 @@
 define([
 	'jquery',
 	'underscore',
-	'app/component',
-	'app/nav'
+	'app/component'
 ],
-function($, _, component, nav){
+function($, _, component){
 
     var $container,
         $sections,
-		nav,
         sw = $(document).width(),
         currIndex = 0;
 
@@ -16,8 +14,6 @@ function($, _, component, nav){
 		initialise: function($el, opts){
             $container = $el.find('div.sectionsContainer');
             $sections = $container.find('section');
-
-			nav = nav($el.find('nav'));
 
 			$(document).on('nav/change', this.goTo);
 			$(window).on('resize', this.resize);
