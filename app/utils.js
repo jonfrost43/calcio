@@ -20,13 +20,19 @@ exports.tablify = function(tables, match, index, array){
 		};
 	};
 
+	if(match.isFuture || !group){
+		return tables;
+	}
+
 	//create group if new
 	if(groupIndex === -1){
+		console.log(group.length);
 		groupIndex = tables.push({
 			name: group,
 			teams: []
 		}) - 1;
 	}
+	
 	var teams = tables[groupIndex].teams,
 		homeData = _.find(teams, {name: homeTeam}),
 		awayData = _.find(teams, {name: awayTeam});
@@ -41,10 +47,6 @@ exports.tablify = function(tables, match, index, array){
 	if(!awayData){
 		awayData = getBaseValues(awayTeam);
 		teams.push(awayData);
-	}
-
-	if(match.isFuture){
-		return tables;
 	}
 
 	homeData.played++;
