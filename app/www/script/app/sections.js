@@ -7,7 +7,7 @@ function($, _, component){
 
     var $container,
         $sections,
-        sw = $(document).width(),
+        sw = $(window).width(),
         currIndex = 0;
 
 	return component({
@@ -46,7 +46,7 @@ function($, _, component){
         },
 
 		resize: function(){
-			sw = $(document).width();
+			sw = $(window).width();
 
 			$sections.width(sw);
 
