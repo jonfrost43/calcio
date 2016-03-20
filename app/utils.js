@@ -26,13 +26,12 @@ exports.tablify = function(tables, match, index, array){
 
 	//create group if new
 	if(groupIndex === -1){
-		console.log(group.length);
 		groupIndex = tables.push({
 			name: group,
 			teams: []
 		}) - 1;
 	}
-	
+
 	var teams = tables[groupIndex].teams,
 		homeData = _.find(teams, {name: homeTeam}),
 		awayData = _.find(teams, {name: awayTeam});
