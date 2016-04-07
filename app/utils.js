@@ -20,7 +20,7 @@ exports.tablify = function(tables, match, index, array){
 		};
 	};
 
-	if(match.isFuture || !group){
+	if(!group){
 		return tables;
 	}
 
@@ -46,6 +46,10 @@ exports.tablify = function(tables, match, index, array){
 	if(!awayData){
 		awayData = getBaseValues(awayTeam);
 		teams.push(awayData);
+	}
+
+	if(match.isFuture){
+		return tables;
 	}
 
 	homeData.played++;

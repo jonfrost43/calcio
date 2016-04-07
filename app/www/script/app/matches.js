@@ -14,7 +14,7 @@ function($, component, doT, template, utils){
 			this.$el = $el;
 
 			$.ajax({
-				url: '/api/uefachampionsleague2016'
+				url: '/api/uefaeuro2016'
 			})
 			.then(this.render.bind(this));
 		},

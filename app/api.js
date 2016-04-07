@@ -30,10 +30,27 @@ exports.handler = function(request, response){
 		}
 
 		if(request.params.format === 'tables'){
-			data = data.reduce(tablify, []);
+			data = data.reduce(tablify, []).sort(function(a, b){
+				if(a.name > b.name){
+					return 1;
+				}
+				if(b.name > a.name){
+					return -1;
+				}
+				return 0;
+			});
 
 			data.forEach(function(table){
 				table.teams
+					.sort(function(a, b){
+						if(a.name > b.name){
+							return 1;
+						}
+						if(b.name > a.name){
+							return -1;
+						}
+						return 0;
+					})
 					.sort(function(a, b){
 						return b.gd - a.gd;
 					})
