@@ -34,7 +34,16 @@ var parseHTML = function(response){
 			matchId = href.match(/match=\d+/g)[0].split('=')[1],
 			dateString = $('.dateT').eq(i).text().trim(),
 			dateClass = $(el).closest('table').attr('class'),
-			timestamp = Date.parse(dateClass.slice(4, 8)+'-'+dateClass.slice(8, 10)+'-'+dateClass.slice(10, 12));
+			timeOpts = $('.score').eq(i).data('options'),
+			dateTime = new Date(
+				parseInt(timeOpts.year),
+				parseInt(timeOpts.month)-1,
+				parseInt(timeOpts.day),
+				parseInt(timeOpts.hours),
+				parseInt(timeOpts.minutes)
+			),
+			timestamp = Date.parse(dateTime),
+			location = $('.referee_stadium').eq(i).find('.stadium_name').text();
 
 		return {
 			id: matchId,
@@ -43,6 +52,7 @@ var parseHTML = function(response){
 			isFuture: timestamp > Date.parse(new Date()),
 			round: $('.rname a').eq(i).text(),
 			group: $('.gname a').eq(i).text(),
+			location: location,
 			home: {
 				name: $('.home a').eq(i).text()
 			},

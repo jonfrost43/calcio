@@ -2,7 +2,7 @@
     {
         "id": "2017877",
         "dateTime": "10 June 2016",
-        "timestamp": 1465516800000,
+        "timestamp": 1465588800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -12,12 +12,13 @@
         "away": {
             "name": "Romania"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017877.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017877.json",
+        "location": "Stade de France, Saint-Denis (FRA) "
     },
     {
         "id": "2017878",
         "dateTime": "11 June 2016",
-        "timestamp": 1465603200000,
+        "timestamp": 1465653600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -27,12 +28,13 @@
         "away": {
             "name": "Switzerland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017878.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017878.json",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
     },
     {
         "id": "2017880",
         "dateTime": "11 June 2016",
-        "timestamp": 1465603200000,
+        "timestamp": 1465664400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -42,12 +44,13 @@
         "away": {
             "name": "Slovakia"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017880.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017880.json",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) "
     },
     {
         "id": "2017879",
         "dateTime": "11 June 2016",
-        "timestamp": 1465603200000,
+        "timestamp": 1465675200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -57,12 +60,13 @@
         "away": {
             "name": "Russia"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017879.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017879.json",
+        "location": "Stade Vélodrome, Marseille (FRA) "
     },
     {
         "id": "2017884",
         "dateTime": "12 June 2016",
-        "timestamp": 1465689600000,
+        "timestamp": 1465740000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -72,12 +76,13 @@
         "away": {
             "name": "Croatia"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017884.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017884.json",
+        "location": "Parc des Princes, Paris (FRA) "
     },
     {
         "id": "2017882",
         "dateTime": "12 June 2016",
-        "timestamp": 1465689600000,
+        "timestamp": 1465750800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -87,12 +92,13 @@
         "away": {
             "name": "Northern Ireland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017882.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017882.json",
+        "location": "Stade de Nice, Nice (FRA) "
     },
     {
         "id": "2017881",
         "dateTime": "12 June 2016",
-        "timestamp": 1465689600000,
+        "timestamp": 1465761600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -102,12 +108,13 @@
         "away": {
             "name": "Ukraine"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017881.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017881.json",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
     },
     {
         "id": "2017883",
         "dateTime": "13 June 2016",
-        "timestamp": 1465776000000,
+        "timestamp": 1465826400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -117,12 +124,13 @@
         "away": {
             "name": "Czech Republic"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017883.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017883.json",
+        "location": "Stadium de Toulouse, Toulouse (FRA) "
     },
     {
         "id": "2017954",
         "dateTime": "13 June 2016",
-        "timestamp": 1465776000000,
+        "timestamp": 1465837200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -132,12 +140,13 @@
         "away": {
             "name": "Sweden"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017954.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017954.json",
+        "location": "Stade de France, Saint-Denis (FRA) "
     },
     {
         "id": "2017953",
         "dateTime": "13 June 2016",
-        "timestamp": 1465776000000,
+        "timestamp": 1465848000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -147,12 +156,13 @@
         "away": {
             "name": "Italy"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017953.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017953.json",
+        "location": "Stade de Lyon, Lyon (FRA) "
     },
     {
         "id": "2017960",
         "dateTime": "14 June 2016",
-        "timestamp": 1465862400000,
+        "timestamp": 1465923600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -162,12 +172,13 @@
         "away": {
             "name": "Hungary"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017960.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017960.json",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) "
     },
     {
         "id": "2017959",
         "dateTime": "14 June 2016",
-        "timestamp": 1465862400000,
+        "timestamp": 1465934400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -177,12 +188,13 @@
         "away": {
             "name": "Iceland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017959.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017959.json",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) "
     },
     {
         "id": "2017888",
         "dateTime": "15 June 2016",
-        "timestamp": 1465948800000,
+        "timestamp": 1465999200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -192,12 +204,13 @@
         "away": {
             "name": "Slovakia"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017888.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017888.json",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
     },
     {
         "id": "2017886",
         "dateTime": "15 June 2016",
-        "timestamp": 1465948800000,
+        "timestamp": 1466010000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -207,12 +220,13 @@
         "away": {
             "name": "Switzerland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017886.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017886.json",
+        "location": "Parc des Princes, Paris (FRA) "
     },
     {
         "id": "2017885",
         "dateTime": "15 June 2016",
-        "timestamp": 1465948800000,
+        "timestamp": 1466020800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -222,12 +236,13 @@
         "away": {
             "name": "Albania"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017885.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017885.json",
+        "location": "Stade Vélodrome, Marseille (FRA) "
     },
     {
         "id": "2017887",
         "dateTime": "16 June 2016",
-        "timestamp": 1466035200000,
+        "timestamp": 1466085600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -237,12 +252,13 @@
         "away": {
             "name": "Wales"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017887.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017887.json",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
     },
     {
         "id": "2017890",
         "dateTime": "16 June 2016",
-        "timestamp": 1466035200000,
+        "timestamp": 1466096400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -252,12 +268,13 @@
         "away": {
             "name": "Northern Ireland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017890.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017890.json",
+        "location": "Stade de Lyon, Lyon (FRA) "
     },
     {
         "id": "2017889",
         "dateTime": "16 June 2016",
-        "timestamp": 1466035200000,
+        "timestamp": 1466107200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -267,12 +284,13 @@
         "away": {
             "name": "Poland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017889.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017889.json",
+        "location": "Stade de France, Saint-Denis (FRA) "
     },
     {
         "id": "2017956",
         "dateTime": "17 June 2016",
-        "timestamp": 1466121600000,
+        "timestamp": 1466172000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -282,12 +300,13 @@
         "away": {
             "name": "Sweden"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017956.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017956.json",
+        "location": "Stadium de Toulouse, Toulouse (FRA) "
     },
     {
         "id": "2017892",
         "dateTime": "17 June 2016",
-        "timestamp": 1466121600000,
+        "timestamp": 1466182800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -297,12 +316,13 @@
         "away": {
             "name": "Croatia"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017892.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017892.json",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) "
     },
     {
         "id": "2017891",
         "dateTime": "17 June 2016",
-        "timestamp": 1466121600000,
+        "timestamp": 1466193600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -312,12 +332,13 @@
         "away": {
             "name": "Turkey"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017891.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017891.json",
+        "location": "Stade de Nice, Nice (FRA) "
     },
     {
         "id": "2017955",
         "dateTime": "18 June 2016",
-        "timestamp": 1466208000000,
+        "timestamp": 1466258400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -327,12 +348,13 @@
         "away": {
             "name": "Republic of Ireland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017955.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017955.json",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) "
     },
     {
         "id": "2017962",
         "dateTime": "18 June 2016",
-        "timestamp": 1466208000000,
+        "timestamp": 1466269200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -342,12 +364,13 @@
         "away": {
             "name": "Hungary"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017962.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017962.json",
+        "location": "Stade Vélodrome, Marseille (FRA) "
     },
     {
         "id": "2017961",
         "dateTime": "18 June 2016",
-        "timestamp": 1466208000000,
+        "timestamp": 1466280000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -357,12 +380,13 @@
         "away": {
             "name": "Austria"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017961.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017961.json",
+        "location": "Parc des Princes, Paris (FRA) "
     },
     {
         "id": "2017893",
         "dateTime": "19 June 2016",
-        "timestamp": 1466294400000,
+        "timestamp": 1466366400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -372,12 +396,13 @@
         "away": {
             "name": "France"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017893.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017893.json",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
     },
     {
         "id": "2017894",
         "dateTime": "19 June 2016",
-        "timestamp": 1466294400000,
+        "timestamp": 1466366400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -387,12 +412,13 @@
         "away": {
             "name": "Albania"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017894.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017894.json",
+        "location": "Stade de Lyon, Lyon (FRA) "
     },
     {
         "id": "2017895",
         "dateTime": "20 June 2016",
-        "timestamp": 1466380800000,
+        "timestamp": 1466452800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -402,12 +428,13 @@
         "away": {
             "name": "England"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017895.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017895.json",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) "
     },
     {
         "id": "2017896",
         "dateTime": "20 June 2016",
-        "timestamp": 1466380800000,
+        "timestamp": 1466452800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -417,12 +444,13 @@
         "away": {
             "name": "Wales"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017896.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017896.json",
+        "location": "Stadium de Toulouse, Toulouse (FRA) "
     },
     {
         "id": "2017897",
         "dateTime": "21 June 2016",
-        "timestamp": 1466467200000,
+        "timestamp": 1466528400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -432,12 +460,13 @@
         "away": {
             "name": "Germany"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017897.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017897.json",
+        "location": "Parc des Princes, Paris (FRA) "
     },
     {
         "id": "2017898",
         "dateTime": "21 June 2016",
-        "timestamp": 1466467200000,
+        "timestamp": 1466528400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -447,12 +476,13 @@
         "away": {
             "name": "Poland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017898.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017898.json",
+        "location": "Stade Vélodrome, Marseille (FRA) "
     },
     {
         "id": "2017899",
         "dateTime": "21 June 2016",
-        "timestamp": 1466467200000,
+        "timestamp": 1466539200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -462,12 +492,13 @@
         "away": {
             "name": "Spain"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017899.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017899.json",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) "
     },
     {
         "id": "2017900",
         "dateTime": "21 June 2016",
-        "timestamp": 1466467200000,
+        "timestamp": 1466539200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -477,12 +508,13 @@
         "away": {
             "name": "Turkey"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017900.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017900.json",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
     },
     {
         "id": "2017963",
         "dateTime": "22 June 2016",
-        "timestamp": 1466553600000,
+        "timestamp": 1466614800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -492,12 +524,13 @@
         "away": {
             "name": "Austria"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017963.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017963.json",
+        "location": "Stade de France, Saint-Denis (FRA) "
     },
     {
         "id": "2017964",
         "dateTime": "22 June 2016",
-        "timestamp": 1466553600000,
+        "timestamp": 1466614800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -507,12 +540,13 @@
         "away": {
             "name": "Portugal"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017964.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017964.json",
+        "location": "Stade de Lyon, Lyon (FRA) "
     },
     {
         "id": "2017957",
         "dateTime": "22 June 2016",
-        "timestamp": 1466553600000,
+        "timestamp": 1466625600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -522,12 +556,13 @@
         "away": {
             "name": "Belgium"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017957.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017957.json",
+        "location": "Stade de Nice, Nice (FRA) "
     },
     {
         "id": "2017958",
         "dateTime": "22 June 2016",
-        "timestamp": 1466553600000,
+        "timestamp": 1466625600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -537,6 +572,7 @@
         "away": {
             "name": "Republic of Ireland"
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017958.json"
+        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017958.json",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
     }
 ]
