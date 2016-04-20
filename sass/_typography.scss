@@ -15,13 +15,24 @@ h1 {
 
 h2 {
     font-size: 2.6em;
+
+	span.huge {
+		display: block;
+		font-size: 4.5em;
+	}
 }
 
 h3 {
     font-size: 2.2em;
+	line-height: 2;
+
+	span {
+		border-bottom: 1px solid #777;
+		padding-bottom: 10px;
+	}
 }
 
-h3 {
+h4 {
     font-size: 1.8em;
 }
 

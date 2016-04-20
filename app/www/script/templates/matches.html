@@ -1,6 +1,6 @@
 {{~it :day}}
     <div class="matchDay">
-        <h3>{{=day.date}}</h3>
+        <h3><span>{{=day.date}}</span></h3>
         {{~day.matches :match}}
         <p class="match">
             {{=match.home.name}} {{?match.isFuture}}v{{??}}<strong>{{=match.home.score}}:{{=match.away.score}}</strong>{{?}} {{=match.away.name}}

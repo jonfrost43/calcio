@@ -12,7 +12,7 @@ function($, component){
 				endTime = opts.endTime;
 			}
 
-			$el.html(this.getRemainingDays() + ' days to go');
+			$el.html('<span class="huge">'+this.getRemainingDays()+'</span> days to go');
 		},
 
 		getRemainingDays: function(){

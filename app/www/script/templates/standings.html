@@ -1,6 +1,6 @@
 <div>
     {{~ it :group}}
-    <h3>{{=group.name}}</h3>
+    <h3><span>{{=group.name}}</span></h3>
     <table class="group">
         <tr>
             <th></th>
@@ -14,12 +14,12 @@
         {{~ group.teams :team}}
         <tr>
             <td>{{=team.name}}</td>
-            <td>{{=team.played}}</td>
-            <td>{{=team.won}}</td>
-            <td>{{=team.drawn}}</td>
-            <td>{{=team.lost}}</td>
-            <td>{{=team.gd}}</td>
-            <td>{{=team.points}}</td>
+            <td width="9%">{{=team.played}}</td>
+            <td width="9%">{{=team.won}}</td>
+            <td width="9%">{{=team.drawn}}</td>
+            <td width="9%">{{=team.lost}}</td>
+            <td width="9%">{{=team.gd}}</td>
+            <td width="9%">{{=team.points}}</td>
         </tr>
         {{~}}
     </table>

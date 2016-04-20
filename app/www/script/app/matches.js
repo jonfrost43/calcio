@@ -24,6 +24,7 @@ function($, component, doT, template, utils){
 				day.matches.forEach(function(match){
 					match.home.score = match.home.goals ? match.home.goals.length : '???';
 					match.away.score = match.away.goals ? match.away.goals.length : '???';
+					match.time = new Date(match.timestamp).toString().split(' ')[4].slice(0,5);
 				});
 			});
 
