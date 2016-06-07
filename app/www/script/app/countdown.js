@@ -1,10 +1,11 @@
 define([
 	'jquery',
-	'app/component'
+	'app/component',
+	'moment'
 ],
-function($, component){
+function($, component, moment){
 
-	var endTime = '2016-06-10';
+	var endTime = ['2016', '5', '10', '19'];
 
 	return component({
 		initialise: function($el, opts){
@@ -12,7 +13,22 @@ function($, component){
 				endTime = opts.endTime;
 			}
 
-			$el.html('<span class="huge">'+this.getRemainingDays()+'</span> days to go');
+			$el.html(this.getCountdown());
+		},
+
+		getCountdown: function(){
+			var now = moment.utc(),
+				ko = moment.utc(Date.UTC.apply(Date, endTime)),
+				html;
+
+			if(now.isBefore(ko)){
+				html = 'Euro 2016<br /> kicks off in <span class="large">'+now.to(ko, true)+'</span>'
+			}
+			else{
+				html = 'Euro 2016<br /> is underway!'
+			}
+
+			return html;
 		},
 
 		getRemainingDays: function(){

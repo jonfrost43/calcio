@@ -4,7 +4,8 @@ requirejs.config({
 		jquery: 'lib/zepto',
 		underscore: 'lib/underscore',
 		doT: 'lib/doT',
-		text: 'lib/text'
+		text: 'lib/text',
+		moment: 'lib/moment'
     },
 	shim: {
 		jquery: {
@@ -13,5 +14,8 @@ requirejs.config({
 		underscore: {
 			exports: '_'
 		}
+	},
+	moment: {
+		noGlobal: true
 	}
 });
