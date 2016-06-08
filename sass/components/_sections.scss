@@ -30,6 +30,13 @@
     padding: 0 10px;
 }
 
+@media (min-width: 500px) {
+    .standings {
+        margin: 0 auto;
+        width: 480px;
+    }
+}
+
 // .matchDay {
 //     overflow: hidden;
 //     .match {
