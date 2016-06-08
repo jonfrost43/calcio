@@ -13,7 +13,15 @@ function($, component, moment){
 				endTime = opts.endTime;
 			}
 
-			$el.html(this.getCountdown());
+			this.render();
+		},
+
+		render: function(){
+			this.$el.html(this.getCountdown());
+
+			if(Date.now() < Date.UTC.apply(Date, endTime)){
+				setTimeout(this.render.bind(this), 10000);
+			}
 		},
 
 		getCountdown: function(){
@@ -25,14 +33,10 @@ function($, component, moment){
 				html = 'Euro 2016<br /> kicks off in <span class="large">'+now.to(ko, true)+'</span>'
 			}
 			else{
-				html = 'Euro 2016<br /> is underway!'
+				html = '<span class="large">Euro 2016<br /> is underway!</span>'
 			}
 
 			return html;
-		},
-
-		getRemainingDays: function(){
-			return Math.ceil((new Date(endTime) - new Date()) / 1000 / 60 / 60 / 24);
 		}
 	});
 
