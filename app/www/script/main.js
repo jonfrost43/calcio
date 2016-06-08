@@ -28,11 +28,11 @@ function($, notifications, nav, sections, countdown, matches, standings){
 
 		navigator.serviceWorker.register('/sw.js')
 			.then(function(registration){
-				notifications.add('ServiceWorker registered');
+				//notifications.add('ServiceWorker registered');
 				console.log('ServiceWorker registration successful with scope: ', registration.scope);
 			})
 			.catch(function(err){
-				notifications.add('ServiceWorker registration failed');
+				//notifications.add('ServiceWorker registration failed');
 				console.log('ServiceWorker registration failed: ', err);
 			});
 
