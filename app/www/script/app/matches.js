@@ -2,10 +2,11 @@ define([
 	'jquery',
 	'app/component',
 	'lib/doT',
+	'moment',
 	'text!templates/matches.html',
 	'app/utils'
 ],
-function($, component, doT, template, utils){
+function($, component, doT, moment, template, utils){
 
 	var templateFnc = doT.template(template);
 
@@ -23,6 +24,14 @@ function($, component, doT, template, utils){
 
 		render: function(days){
 			days.forEach(function(day){
+				day.calendar = moment(new Date(day.date)).calendar(null, {
+				    sameDay: '[Today]',
+				    nextDay: '[Tomorrow]',
+				    nextWeek: 'dddd',
+				    lastDay: '[Yesterday]',
+				    lastWeek: '[Last] dddd',
+				    sameElse: 'dddd Do MMMM'
+				});
 				day.matches.forEach(function(match){
 					match.home.score = match.home.goals ? match.home.goals.length : '???';
 					match.away.score = match.away.goals ? match.away.goals.length : '???';

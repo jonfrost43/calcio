@@ -1,6 +1,6 @@
 {{~it :day}}
     <div class="matchDay">
-        <h3><span>{{=day.date}}</span></h3>
+        <h3><span>{{=day.calendar}}</span></h3>
         {{~day.matches :match}}
         <p class="match {{?match.isFuture}}fixture{{??}}result{{?}}">
             <span class="homeTeam">{{=match.home.name}}</span>
