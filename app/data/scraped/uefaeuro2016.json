@@ -2,7 +2,7 @@
     {
         "id": "2017877",
         "dateTime": "10 June 2016",
-        "timestamp": 1465588800000,
+        "timestamp": 1465585200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -18,7 +18,7 @@
     {
         "id": "2017878",
         "dateTime": "11 June 2016",
-        "timestamp": 1465653600000,
+        "timestamp": 1465650000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -34,7 +34,7 @@
     {
         "id": "2017880",
         "dateTime": "11 June 2016",
-        "timestamp": 1465664400000,
+        "timestamp": 1465660800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -50,7 +50,7 @@
     {
         "id": "2017879",
         "dateTime": "11 June 2016",
-        "timestamp": 1465675200000,
+        "timestamp": 1465671600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -66,7 +66,7 @@
     {
         "id": "2017884",
         "dateTime": "12 June 2016",
-        "timestamp": 1465740000000,
+        "timestamp": 1465736400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -82,7 +82,7 @@
     {
         "id": "2017882",
         "dateTime": "12 June 2016",
-        "timestamp": 1465750800000,
+        "timestamp": 1465747200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -98,7 +98,7 @@
     {
         "id": "2017881",
         "dateTime": "12 June 2016",
-        "timestamp": 1465761600000,
+        "timestamp": 1465758000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -114,7 +114,7 @@
     {
         "id": "2017883",
         "dateTime": "13 June 2016",
-        "timestamp": 1465826400000,
+        "timestamp": 1465822800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -130,7 +130,7 @@
     {
         "id": "2017954",
         "dateTime": "13 June 2016",
-        "timestamp": 1465837200000,
+        "timestamp": 1465833600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -146,7 +146,7 @@
     {
         "id": "2017953",
         "dateTime": "13 June 2016",
-        "timestamp": 1465848000000,
+        "timestamp": 1465844400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -162,7 +162,7 @@
     {
         "id": "2017960",
         "dateTime": "14 June 2016",
-        "timestamp": 1465923600000,
+        "timestamp": 1465920000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -178,7 +178,7 @@
     {
         "id": "2017959",
         "dateTime": "14 June 2016",
-        "timestamp": 1465934400000,
+        "timestamp": 1465930800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -194,7 +194,7 @@
     {
         "id": "2017888",
         "dateTime": "15 June 2016",
-        "timestamp": 1465999200000,
+        "timestamp": 1465995600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -210,7 +210,7 @@
     {
         "id": "2017886",
         "dateTime": "15 June 2016",
-        "timestamp": 1466010000000,
+        "timestamp": 1466006400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -226,7 +226,7 @@
     {
         "id": "2017885",
         "dateTime": "15 June 2016",
-        "timestamp": 1466020800000,
+        "timestamp": 1466017200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -242,7 +242,7 @@
     {
         "id": "2017887",
         "dateTime": "16 June 2016",
-        "timestamp": 1466085600000,
+        "timestamp": 1466082000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -258,7 +258,7 @@
     {
         "id": "2017890",
         "dateTime": "16 June 2016",
-        "timestamp": 1466096400000,
+        "timestamp": 1466092800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -274,7 +274,7 @@
     {
         "id": "2017889",
         "dateTime": "16 June 2016",
-        "timestamp": 1466107200000,
+        "timestamp": 1466103600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -290,7 +290,7 @@
     {
         "id": "2017956",
         "dateTime": "17 June 2016",
-        "timestamp": 1466172000000,
+        "timestamp": 1466168400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -306,7 +306,7 @@
     {
         "id": "2017892",
         "dateTime": "17 June 2016",
-        "timestamp": 1466182800000,
+        "timestamp": 1466179200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -322,7 +322,7 @@
     {
         "id": "2017891",
         "dateTime": "17 June 2016",
-        "timestamp": 1466193600000,
+        "timestamp": 1466190000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -338,7 +338,7 @@
     {
         "id": "2017955",
         "dateTime": "18 June 2016",
-        "timestamp": 1466258400000,
+        "timestamp": 1466254800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -354,7 +354,7 @@
     {
         "id": "2017962",
         "dateTime": "18 June 2016",
-        "timestamp": 1466269200000,
+        "timestamp": 1466265600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -370,7 +370,7 @@
     {
         "id": "2017961",
         "dateTime": "18 June 2016",
-        "timestamp": 1466280000000,
+        "timestamp": 1466276400000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -386,7 +386,7 @@
     {
         "id": "2017893",
         "dateTime": "19 June 2016",
-        "timestamp": 1466366400000,
+        "timestamp": 1466362800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -402,7 +402,7 @@
     {
         "id": "2017894",
         "dateTime": "19 June 2016",
-        "timestamp": 1466366400000,
+        "timestamp": 1466362800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
@@ -418,7 +418,7 @@
     {
         "id": "2017895",
         "dateTime": "20 June 2016",
-        "timestamp": 1466452800000,
+        "timestamp": 1466449200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -434,7 +434,7 @@
     {
         "id": "2017896",
         "dateTime": "20 June 2016",
-        "timestamp": 1466452800000,
+        "timestamp": 1466449200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
@@ -450,7 +450,7 @@
     {
         "id": "2017897",
         "dateTime": "21 June 2016",
-        "timestamp": 1466528400000,
+        "timestamp": 1466524800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -466,7 +466,7 @@
     {
         "id": "2017898",
         "dateTime": "21 June 2016",
-        "timestamp": 1466528400000,
+        "timestamp": 1466524800000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
@@ -482,7 +482,7 @@
     {
         "id": "2017899",
         "dateTime": "21 June 2016",
-        "timestamp": 1466539200000,
+        "timestamp": 1466535600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -498,7 +498,7 @@
     {
         "id": "2017900",
         "dateTime": "21 June 2016",
-        "timestamp": 1466539200000,
+        "timestamp": 1466535600000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
@@ -514,7 +514,7 @@
     {
         "id": "2017963",
         "dateTime": "22 June 2016",
-        "timestamp": 1466614800000,
+        "timestamp": 1466611200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -530,7 +530,7 @@
     {
         "id": "2017964",
         "dateTime": "22 June 2016",
-        "timestamp": 1466614800000,
+        "timestamp": 1466611200000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
@@ -546,7 +546,7 @@
     {
         "id": "2017957",
         "dateTime": "22 June 2016",
-        "timestamp": 1466625600000,
+        "timestamp": 1466622000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
@@ -562,7 +562,7 @@
     {
         "id": "2017958",
         "dateTime": "22 June 2016",
-        "timestamp": 1466625600000,
+        "timestamp": 1466622000000,
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
