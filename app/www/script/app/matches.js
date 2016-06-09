@@ -15,8 +15,10 @@ function($, component, doT, template, utils){
 
 			$.ajax({
 				url: '/api/uefaeuro2016'
+				// url: '/api/uefachampionsleague2016'
 			})
-			.then(this.render.bind(this));
+			.then(this.render.bind(this))
+			.then(this.scrollToLatest.bind(this));
 		},
 
 		render: function(days){
@@ -29,6 +31,14 @@ function($, component, doT, template, utils){
 			});
 
 			this.$el.html(templateFnc(days));
+		},
+
+		scrollToLatest: function(){
+			var $results = this.$el.find('.result');
+
+			if($results.length){
+				this.$el.parents('section').scrollTop($results.last().parent().position().top - 100);
+			}
 		}
 	});
 

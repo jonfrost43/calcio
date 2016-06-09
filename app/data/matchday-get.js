@@ -39,7 +39,7 @@ var parseHTML = function(response){
 				parseInt(timeOpts.year),
 				parseInt(timeOpts.month)-1,
 				parseInt(timeOpts.day),
-				parseInt(timeOpts.hours),
+				parseInt(timeOpts.hours)+(new Date().getTimezoneOffset()/60),
 				parseInt(timeOpts.minutes)
 			),
 			timestamp = Date.parse(dateTime),

@@ -2,8 +2,14 @@
     <div class="matchDay">
         <h3><span>{{=day.date}}</span></h3>
         {{~day.matches :match}}
-        <p class="match">
-            {{=match.home.name}} {{?match.isFuture}}v{{??}}<strong>{{=match.home.score}}:{{=match.away.score}}</strong>{{?}} {{=match.away.name}}
+        <p class="match {{?match.isFuture}}fixture{{??}}result{{?}}">
+            <span class="homeTeam">{{=match.home.name}}</span>
+            {{?match.isFuture}}
+                <span class="time">{{=match.time}}</span>
+            {{??}}
+                <span class="score">{{=match.home.score}}&nbsp;:&nbsp;{{=match.away.score}}</span>
+            {{?}}
+            <span class="awayTeam">{{=match.away.name}}</span>
         </p>
         {{~}}
     </div>
