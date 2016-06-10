@@ -3,17 +3,43 @@
         "id": "2017877",
         "dateTime": "10 June 2016",
         "timestamp": 1465585200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
         "home": {
-            "name": "France"
+            "name": "France",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Giroud"
+                    },
+                    "time": null
+                },
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Payet"
+                    },
+                    "time": null
+                }
+            ]
         },
         "away": {
-            "name": "Romania"
+            "name": "Romania",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Stancu"
+                    },
+                    "time": null
+                }
+            ]
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017877.json",
-        "location": "Stade de France, Saint-Denis (FRA) "
+        "location": "Stade de France, Saint-Denis (FRA) ",
+        "response": {}
     },
     {
         "id": "2017878",

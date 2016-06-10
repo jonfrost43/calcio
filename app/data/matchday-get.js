@@ -35,21 +35,26 @@ var parseHTML = function(response){
 			dateString = $('.dateT').eq(i).text().trim(),
 			dateClass = $(el).closest('table').attr('class'),
 			timeOpts = $('.score').eq(i).data('options'),
+			dateTime,
+			timestamp,
+			location = $('.referee_stadium').eq(i).find('.stadium_name').text();
+
+		if(timeOpts){
 			dateTime = new Date(
 				parseInt(timeOpts.year),
 				parseInt(timeOpts.month)-1,
 				parseInt(timeOpts.day),
 				parseInt(timeOpts.hours)+(new Date().getTimezoneOffset()/60),
 				parseInt(timeOpts.minutes)
-			),
-			timestamp = Date.parse(dateTime),
-			location = $('.referee_stadium').eq(i).find('.stadium_name').text();
+			);
+			timestamp = Date.parse(dateTime);
+		}
 
 		return {
 			id: matchId,
 			dateTime: dateString,
 			timestamp: timestamp,
-			isFuture: timestamp > Date.parse(new Date()),
+			isFuture: !!timeOpts,
 			round: $('.rname a').eq(i).text(),
 			group: $('.gname a').eq(i).text(),
 			location: location,
