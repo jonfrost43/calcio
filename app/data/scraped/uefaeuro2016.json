@@ -71,14 +71,39 @@
         "id": "2017880",
         "dateTime": "11 June 2016",
         "timestamp": 1465660800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
         "home": {
-            "name": "Wales"
+            "name": "Wales",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Bale"
+                    },
+                    "time": null
+                },
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Robson-Kanu"
+                    },
+                    "time": null
+                }
+            ]
         },
         "away": {
-            "name": "Slovakia"
+            "name": "Slovakia",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Duda"
+                    },
+                    "time": null
+                }
+            ]
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017880.json",
         "location": "Stade de Bordeaux, Bordeaux (FRA) "
