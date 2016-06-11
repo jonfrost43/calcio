@@ -112,14 +112,32 @@
         "id": "2017879",
         "dateTime": "11 June 2016",
         "timestamp": 1465671600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
         "home": {
-            "name": "England"
+            "name": "England",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Dier"
+                    },
+                    "time": null
+                }
+            ]
         },
         "away": {
-            "name": "Russia"
+            "name": "Russia",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Glushakov"
+                    },
+                    "time": null
+                }
+            ]
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017879.json",
         "location": "Stade Vélodrome, Marseille (FRA) "
