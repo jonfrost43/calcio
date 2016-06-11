@@ -45,14 +45,24 @@
         "id": "2017878",
         "dateTime": "11 June 2016",
         "timestamp": 1465650000000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
         "home": {
-            "name": "Albania"
+            "name": "Albania",
+            "goals": []
         },
         "away": {
-            "name": "Switzerland"
+            "name": "Switzerland",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Schär"
+                    },
+                    "time": null
+                }
+            ]
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017878.json",
         "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
