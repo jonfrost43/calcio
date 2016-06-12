@@ -173,14 +173,26 @@
         "id": "2017882",
         "dateTime": "12 June 2016",
         "timestamp": 1465747200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
         "home": {
-            "name": "Poland"
+            "name": "Poland",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Milik"
+                    },
+                    "time": null
+                }
+            ]
         },
         "away": {
-            "name": "Northern Ireland"
+            "name": "Northern Ireland",
+            "goals": [
+
+            ]
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017882.json",
         "location": "Stade de Nice, Nice (FRA) "
