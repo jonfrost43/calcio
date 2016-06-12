@@ -146,14 +146,25 @@
         "id": "2017884",
         "dateTime": "12 June 2016",
         "timestamp": 1465736400000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
         "home": {
-            "name": "Turkey"
+            "name": "Turkey",
+            "goals": [
+            ]
         },
         "away": {
-            "name": "Croatia"
+            "name": "Croatia",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Modrić"
+                    },
+                    "time": null
+                }
+            ]
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017884.json",
         "location": "Parc des Princes, Paris (FRA) "
