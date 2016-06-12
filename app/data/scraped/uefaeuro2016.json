@@ -201,14 +201,31 @@
         "id": "2017881",
         "dateTime": "12 June 2016",
         "timestamp": 1465758000000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
         "home": {
-            "name": "Germany"
+            "name": "Germany",
+            "goals": [
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Mustafi"
+                    },
+                    "time": null
+                },
+                {
+                    "scorer": {
+                        "id": null,
+                        "name": "Schweinsteiger"
+                    },
+                    "time": null
+                }
+            ]
         },
         "away": {
-            "name": "Ukraine"
+            "name": "Ukraine",
+            "goals": []
         },
         "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017881.json",
         "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
