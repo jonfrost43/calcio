@@ -6,22 +6,31 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
+        "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
             "name": "France",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Giroud"
-                    },
-                    "time": null
+                    "idPlayer": 250020851,
+                    "minute": 57,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Giroud",
+                    "playerWebNameAlt": "Olivier Giroud",
+                    "eventDateCET": "2016-06-10T22:16:43+00:00"
                 },
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Payet"
-                    },
-                    "time": null
+                    "idPlayer": 1901409,
+                    "minute": 89,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Payet",
+                    "playerWebNameAlt": "Dimitri Payet",
+                    "eventDateCET": "2016-06-10T22:48:09+00:00"
                 }
             ]
         },
@@ -29,17 +38,23 @@
             "name": "Romania",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Stancu"
-                    },
-                    "time": null
+                    "idPlayer": 1902650,
+                    "minute": 65,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "Stancu",
+                    "playerWebNameAlt": "Bogdan Stancu",
+                    "eventDateCET": "2016-06-10T22:24:36+00:00"
                 }
             ]
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017877.json",
-        "location": "Stade de France, Saint-Denis (FRA) ",
-        "response": {}
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017877"
+        },
+        "state": "Played"
     },
     {
         "id": "2017878",
@@ -48,6 +63,7 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) ",
         "home": {
             "name": "Albania",
             "goals": []
@@ -56,16 +72,23 @@
             "name": "Switzerland",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Schär"
-                    },
-                    "time": null
+                    "idPlayer": 250050401,
+                    "minute": 5,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Schär",
+                    "playerWebNameAlt": "Fabian Schär",
+                    "eventDateCET": "2016-06-11T15:05:57+00:00"
                 }
             ]
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017878.json",
-        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017878"
+        },
+        "state": "Played"
     },
     {
         "id": "2017880",
@@ -74,22 +97,31 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) ",
         "home": {
             "name": "Wales",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Bale"
-                    },
-                    "time": null
+                    "idPlayer": 102225,
+                    "minute": 10,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Bale",
+                    "playerWebNameAlt": "Gareth Bale",
+                    "eventDateCET": "2016-06-11T18:10:44+00:00"
                 },
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Robson-Kanu"
-                    },
-                    "time": null
+                    "idPlayer": 250022171,
+                    "minute": 81,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Robson-Kanu",
+                    "playerWebNameAlt": "Hal Robson-Kanu",
+                    "eventDateCET": "2016-06-11T19:38:25+00:00"
                 }
             ]
         },
@@ -97,16 +129,23 @@
             "name": "Slovakia",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Duda"
-                    },
-                    "time": null
+                    "idPlayer": 250055981,
+                    "minute": 61,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Duda",
+                    "playerWebNameAlt": "Ondrej Duda",
+                    "eventDateCET": "2016-06-11T19:18:09+00:00"
                 }
             ]
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017880.json",
-        "location": "Stade de Bordeaux, Bordeaux (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017880"
+        },
+        "state": "Played"
     },
     {
         "id": "2017879",
@@ -115,15 +154,20 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
+        "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
             "name": "England",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Dier"
-                    },
-                    "time": null
+                    "idPlayer": 250050416,
+                    "minute": 73,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Dier",
+                    "playerWebNameAlt": "Eric Dier",
+                    "eventDateCET": "2016-06-11T22:27:49+00:00"
                 }
             ]
         },
@@ -131,16 +175,23 @@
             "name": "Russia",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Glushakov"
-                    },
-                    "time": null
+                    "idPlayer": 49083,
+                    "minute": 90,
+                    "minuteExtra": 2,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "V. Berezutski",
+                    "playerWebNameAlt": "Vasili Berezutski",
+                    "eventDateCET": "2016-06-11T22:46:15+00:00"
                 }
             ]
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017879.json",
-        "location": "Stade Vélodrome, Marseille (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017879"
+        },
+        "state": "Played"
     },
     {
         "id": "2017884",
@@ -149,25 +200,32 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
+        "location": "Parc des Princes, Paris (FRA) ",
         "home": {
             "name": "Turkey",
-            "goals": [
-            ]
+            "goals": []
         },
         "away": {
             "name": "Croatia",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Modrić"
-                    },
-                    "time": null
+                    "idPlayer": 74699,
+                    "minute": 41,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Modrić",
+                    "playerWebNameAlt": "Luka Modrić",
+                    "eventDateCET": "2016-06-12T15:41:16+00:00"
                 }
             ]
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017884.json",
-        "location": "Parc des Princes, Paris (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017884"
+        },
+        "state": "Played"
     },
     {
         "id": "2017882",
@@ -176,26 +234,32 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
+        "location": "Stade de Nice, Nice (FRA) ",
         "home": {
             "name": "Poland",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Milik"
-                    },
-                    "time": null
+                    "idPlayer": 250043124,
+                    "minute": 51,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Milik",
+                    "playerWebNameAlt": "Arkadiusz Milik",
+                    "eventDateCET": "2016-06-12T19:05:56+00:00"
                 }
             ]
         },
         "away": {
             "name": "Northern Ireland",
-            "goals": [
-
-            ]
+            "goals": []
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017882.json",
-        "location": "Stade de Nice, Nice (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017882"
+        },
+        "state": "Played"
     },
     {
         "id": "2017881",
@@ -204,22 +268,31 @@
         "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
             "name": "Germany",
             "goals": [
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Mustafi"
-                    },
-                    "time": null
+                    "idPlayer": 250007624,
+                    "minute": 19,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Mustafi",
+                    "playerWebNameAlt": "Shkodran Mustafi",
+                    "eventDateCET": "2016-06-12T21:19:07+00:00"
                 },
                 {
-                    "scorer": {
-                        "id": null,
-                        "name": "Schweinsteiger"
-                    },
-                    "time": null
+                    "idPlayer": 67496,
+                    "minute": 90,
+                    "minuteExtra": 2,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Schweinsteiger",
+                    "playerWebNameAlt": "Bastian Schweinsteiger",
+                    "eventDateCET": "2016-06-12T22:48:47+00:00"
                 }
             ]
         },
@@ -227,8 +300,11 @@
             "name": "Ukraine",
             "goals": []
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017881.json",
-        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017881"
+        },
+        "state": "Played"
     },
     {
         "id": "2017883",
@@ -237,14 +313,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
+        "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
-            "name": "Spain"
+            "name": "Spain",
+            "goals": null
         },
         "away": {
-            "name": "Czech Republic"
+            "name": "Czech Republic",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017883.json",
-        "location": "Stadium de Toulouse, Toulouse (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017883"
+        },
+        "state": null
     },
     {
         "id": "2017954",
@@ -253,14 +335,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
+        "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
-            "name": "Republic of Ireland"
+            "name": "Republic of Ireland",
+            "goals": null
         },
         "away": {
-            "name": "Sweden"
+            "name": "Sweden",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017954.json",
-        "location": "Stade de France, Saint-Denis (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017954"
+        },
+        "state": null
     },
     {
         "id": "2017953",
@@ -269,14 +357,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
+        "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
-            "name": "Belgium"
+            "name": "Belgium",
+            "goals": null
         },
         "away": {
-            "name": "Italy"
+            "name": "Italy",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017953.json",
-        "location": "Stade de Lyon, Lyon (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017953"
+        },
+        "state": null
     },
     {
         "id": "2017960",
@@ -285,14 +379,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) ",
         "home": {
-            "name": "Austria"
+            "name": "Austria",
+            "goals": null
         },
         "away": {
-            "name": "Hungary"
+            "name": "Hungary",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017960.json",
-        "location": "Stade de Bordeaux, Bordeaux (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017960"
+        },
+        "state": null
     },
     {
         "id": "2017959",
@@ -301,14 +401,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
-            "name": "Portugal"
+            "name": "Portugal",
+            "goals": null
         },
         "away": {
-            "name": "Iceland"
+            "name": "Iceland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017959.json",
-        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017959"
+        },
+        "state": null
     },
     {
         "id": "2017888",
@@ -317,14 +423,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
-            "name": "Russia"
+            "name": "Russia",
+            "goals": null
         },
         "away": {
-            "name": "Slovakia"
+            "name": "Slovakia",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017888.json",
-        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017888"
+        },
+        "state": null
     },
     {
         "id": "2017886",
@@ -333,14 +445,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
+        "location": "Parc des Princes, Paris (FRA) ",
         "home": {
-            "name": "Romania"
+            "name": "Romania",
+            "goals": null
         },
         "away": {
-            "name": "Switzerland"
+            "name": "Switzerland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017886.json",
-        "location": "Parc des Princes, Paris (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017886"
+        },
+        "state": null
     },
     {
         "id": "2017885",
@@ -349,14 +467,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
+        "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
-            "name": "France"
+            "name": "France",
+            "goals": null
         },
         "away": {
-            "name": "Albania"
+            "name": "Albania",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017885.json",
-        "location": "Stade Vélodrome, Marseille (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017885"
+        },
+        "state": null
     },
     {
         "id": "2017887",
@@ -365,14 +489,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) ",
         "home": {
-            "name": "England"
+            "name": "England",
+            "goals": null
         },
         "away": {
-            "name": "Wales"
+            "name": "Wales",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017887.json",
-        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017887"
+        },
+        "state": null
     },
     {
         "id": "2017890",
@@ -381,14 +511,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
+        "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
-            "name": "Ukraine"
+            "name": "Ukraine",
+            "goals": null
         },
         "away": {
-            "name": "Northern Ireland"
+            "name": "Northern Ireland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017890.json",
-        "location": "Stade de Lyon, Lyon (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017890"
+        },
+        "state": null
     },
     {
         "id": "2017889",
@@ -397,14 +533,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
+        "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
-            "name": "Germany"
+            "name": "Germany",
+            "goals": null
         },
         "away": {
-            "name": "Poland"
+            "name": "Poland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017889.json",
-        "location": "Stade de France, Saint-Denis (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017889"
+        },
+        "state": null
     },
     {
         "id": "2017956",
@@ -413,14 +555,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
+        "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
-            "name": "Italy"
+            "name": "Italy",
+            "goals": null
         },
         "away": {
-            "name": "Sweden"
+            "name": "Sweden",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017956.json",
-        "location": "Stadium de Toulouse, Toulouse (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017956"
+        },
+        "state": null
     },
     {
         "id": "2017892",
@@ -429,14 +577,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
-            "name": "Czech Republic"
+            "name": "Czech Republic",
+            "goals": null
         },
         "away": {
-            "name": "Croatia"
+            "name": "Croatia",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017892.json",
-        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017892"
+        },
+        "state": null
     },
     {
         "id": "2017891",
@@ -445,14 +599,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
+        "location": "Stade de Nice, Nice (FRA) ",
         "home": {
-            "name": "Spain"
+            "name": "Spain",
+            "goals": null
         },
         "away": {
-            "name": "Turkey"
+            "name": "Turkey",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017891.json",
-        "location": "Stade de Nice, Nice (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017891"
+        },
+        "state": null
     },
     {
         "id": "2017955",
@@ -461,14 +621,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) ",
         "home": {
-            "name": "Belgium"
+            "name": "Belgium",
+            "goals": null
         },
         "away": {
-            "name": "Republic of Ireland"
+            "name": "Republic of Ireland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017955.json",
-        "location": "Stade de Bordeaux, Bordeaux (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017955"
+        },
+        "state": null
     },
     {
         "id": "2017962",
@@ -477,14 +643,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
+        "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
-            "name": "Iceland"
+            "name": "Iceland",
+            "goals": null
         },
         "away": {
-            "name": "Hungary"
+            "name": "Hungary",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017962.json",
-        "location": "Stade Vélodrome, Marseille (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017962"
+        },
+        "state": null
     },
     {
         "id": "2017961",
@@ -493,14 +665,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
+        "location": "Parc des Princes, Paris (FRA) ",
         "home": {
-            "name": "Portugal"
+            "name": "Portugal",
+            "goals": null
         },
         "away": {
-            "name": "Austria"
+            "name": "Austria",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017961.json",
-        "location": "Parc des Princes, Paris (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017961"
+        },
+        "state": null
     },
     {
         "id": "2017893",
@@ -509,14 +687,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
-            "name": "Switzerland"
+            "name": "Switzerland",
+            "goals": null
         },
         "away": {
-            "name": "France"
+            "name": "France",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017893.json",
-        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017893"
+        },
+        "state": null
     },
     {
         "id": "2017894",
@@ -525,14 +709,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group A",
+        "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
-            "name": "Romania"
+            "name": "Romania",
+            "goals": null
         },
         "away": {
-            "name": "Albania"
+            "name": "Albania",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017894.json",
-        "location": "Stade de Lyon, Lyon (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017894"
+        },
+        "state": null
     },
     {
         "id": "2017895",
@@ -541,14 +731,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
-            "name": "Slovakia"
+            "name": "Slovakia",
+            "goals": null
         },
         "away": {
-            "name": "England"
+            "name": "England",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017895.json",
-        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017895"
+        },
+        "state": null
     },
     {
         "id": "2017896",
@@ -557,14 +753,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group B",
+        "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
-            "name": "Russia"
+            "name": "Russia",
+            "goals": null
         },
         "away": {
-            "name": "Wales"
+            "name": "Wales",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017896.json",
-        "location": "Stadium de Toulouse, Toulouse (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017896"
+        },
+        "state": null
     },
     {
         "id": "2017897",
@@ -573,14 +775,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
+        "location": "Parc des Princes, Paris (FRA) ",
         "home": {
-            "name": "Northern Ireland"
+            "name": "Northern Ireland",
+            "goals": null
         },
         "away": {
-            "name": "Germany"
+            "name": "Germany",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017897.json",
-        "location": "Parc des Princes, Paris (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017897"
+        },
+        "state": null
     },
     {
         "id": "2017898",
@@ -589,14 +797,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group C",
+        "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
-            "name": "Ukraine"
+            "name": "Ukraine",
+            "goals": null
         },
         "away": {
-            "name": "Poland"
+            "name": "Poland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017898.json",
-        "location": "Stade Vélodrome, Marseille (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017898"
+        },
+        "state": null
     },
     {
         "id": "2017899",
@@ -605,14 +819,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
+        "location": "Stade de Bordeaux, Bordeaux (FRA) ",
         "home": {
-            "name": "Croatia"
+            "name": "Croatia",
+            "goals": null
         },
         "away": {
-            "name": "Spain"
+            "name": "Spain",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017899.json",
-        "location": "Stade de Bordeaux, Bordeaux (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017899"
+        },
+        "state": null
     },
     {
         "id": "2017900",
@@ -621,14 +841,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group D",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) ",
         "home": {
-            "name": "Czech Republic"
+            "name": "Czech Republic",
+            "goals": null
         },
         "away": {
-            "name": "Turkey"
+            "name": "Turkey",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017900.json",
-        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017900"
+        },
+        "state": null
     },
     {
         "id": "2017963",
@@ -637,14 +863,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
+        "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
-            "name": "Iceland"
+            "name": "Iceland",
+            "goals": null
         },
         "away": {
-            "name": "Austria"
+            "name": "Austria",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017963.json",
-        "location": "Stade de France, Saint-Denis (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017963"
+        },
+        "state": null
     },
     {
         "id": "2017964",
@@ -653,14 +885,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group F",
+        "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
-            "name": "Hungary"
+            "name": "Hungary",
+            "goals": null
         },
         "away": {
-            "name": "Portugal"
+            "name": "Portugal",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017964.json",
-        "location": "Stade de Lyon, Lyon (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017964"
+        },
+        "state": null
     },
     {
         "id": "2017957",
@@ -669,14 +907,20 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
+        "location": "Stade de Nice, Nice (FRA) ",
         "home": {
-            "name": "Sweden"
+            "name": "Sweden",
+            "goals": null
         },
         "away": {
-            "name": "Belgium"
+            "name": "Belgium",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017957.json",
-        "location": "Stade de Nice, Nice (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017957"
+        },
+        "state": null
     },
     {
         "id": "2017958",
@@ -685,13 +929,19 @@
         "isFuture": true,
         "round": "Final tournament - Group stage",
         "group": "Group E",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
-            "name": "Italy"
+            "name": "Italy",
+            "goals": null
         },
         "away": {
-            "name": "Republic of Ireland"
+            "name": "Republic of Ireland",
+            "goals": null
         },
-        "url": "/library/statistic/pitchview/matches/cup=undefined/season=2016/round=2000448/match=2017958.json",
-        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) "
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017958"
+        },
+        "state": null
     }
 ]

@@ -1,11 +1,6 @@
 var http = require('http');
 
-var request = function(path){
-	var options = {
-		host: 'www.uefa.com',
-		path: path
-	};
-
+var request = function(options){
 	return new Promise(function(resolve, reject){
 
 		var req = http.request(options, function(res){

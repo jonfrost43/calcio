@@ -3,7 +3,8 @@ var _ = require('lodash'),
 	http = require('http'),
 	cheerio = require('cheerio'),
 	commandLineArgs = require('command-line-args'),
-	request = require('./request').fnc;
+	request = require('./request').fnc,
+	normalise = require('./normalise');
 
 var cli = commandLineArgs([
 	{name: 'cup', alias: 'c', type: String, defaultValue: 'uefachampionsleague'},
@@ -13,14 +14,21 @@ var cli = commandLineArgs([
 
 var options = cli.parse();
 
-var cupIds = {
-	uefachampionsleague: '1',
-	uefaeuropaleague: '14'
-};
-
 var matchDayPath = '/'+options.cup+'/season='+options.season+'/matches/library/day='+options.day+'/_matchesbycalendar.html',
-	matchPath = '/library/statistic/pitchview/matches/cup='+cupIds[options.cup]+'/season={season}/round={round}/match={matchId}.json';
-
+	matchUrl = {
+		uefachampionsleague: {
+			host: 'www.uefa.com',
+			path: '/library/statistic/pitchview/matches/cup=1/season={season}/round={round}/match={matchId}.json'
+		},
+		uefaeuropaleague: {
+			host: 'www.uefa.com',
+			path: '/library/statistic/pitchview/matches/cup=14/season={season}/round={round}/match={matchId}.json'
+		},
+		uefaeuro: {
+			host: 'daaseuro2016.uefa.com',
+			path: '/api/v2/football/en/matches/{matchId}'
+		}
+	};
 
 console.log(options);
 
@@ -64,7 +72,10 @@ var parseHTML = function(response){
 			away: {
 				name: $('.away a').eq(i).text()
 			},
-			url: matchPath.replace('{season}', season).replace('{round}', round).replace('{matchId}', matchId)
+			url: {
+				host: matchUrl[options.cup].host,
+				path: matchUrl[options.cup].path.replace('{season}', season).replace('{round}', round).replace('{matchId}', matchId)
+			}
 		}
 	});
 };
@@ -93,35 +104,6 @@ var concatJSON = function(responses){
 	});
 };
 
-var map = function(matches){
-	return matches.map(function(match){
-
-		if(!match.response){
-			return match;
-		}
-
-	    var goalsByTeam = function(team){
-	        return _.filter(match.response.goals, {team: team.id}).map(function(goal){
-	            return {
-	                scorer: _.find(team.players, {id: goal.player}),
-	                time: goal.time*1000
-	            };
-	        });
-	    }
-
-		return _.merge(match, {
-			state: match.response ? match.response.state : null,
-			home: {
-				goals: match.response.goals ? goalsByTeam(match.response.homeTeam) : null
-			},
-			away: {
-				goals: match.response.goals ? goalsByTeam(match.response.awayTeam) : null
-			}
-		});
-
-	});
-}
-
 var save = function(matches){
 	var path = './scraped/' + options.cup + options.season + '.json';
 
@@ -142,7 +124,7 @@ var save = function(matches){
 					console.log('ADDED: ' + match.home.name + ' v ' + match.away.name);
 				}
 			});
-			console.log(data.length);
+			console.log('UPDATED:' + data.length);
 			fsp.writeFile(path, JSON.stringify(data, null, 4), 'utf8');
 		});
 	}, function(){
@@ -155,9 +137,9 @@ var handleError = function(err){
 	console.log(err);
 };
 
-request(matchDayPath)
+request({host: 'www.uefa.com', path: matchDayPath})
 	.then(parseHTML)
 	.then(getMatches)
-	.then(map)
+	.then(normalise[options.cup])
 	.then(save)
 	.catch(handleError);
