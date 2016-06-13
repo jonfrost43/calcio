@@ -217,7 +217,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Modrić",
                     "playerWebNameAlt": "Luka Modrić",
-                    "eventDateCET": "2016-06-12T15:41:16+00:00"
+                    "eventDateCET": "2016-06-12T15:41:17+00:00"
                 }
             ]
         },
@@ -247,7 +247,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Milik",
                     "playerWebNameAlt": "Arkadiusz Milik",
-                    "eventDateCET": "2016-06-12T19:05:56+00:00"
+                    "eventDateCET": "2016-06-12T19:05:55+00:00"
                 }
             ]
         },
@@ -281,7 +281,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Mustafi",
                     "playerWebNameAlt": "Shkodran Mustafi",
-                    "eventDateCET": "2016-06-12T21:19:07+00:00"
+                    "eventDateCET": "2016-06-12T21:19:14+00:00"
                 },
                 {
                     "idPlayer": 67496,
@@ -292,7 +292,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Schweinsteiger",
                     "playerWebNameAlt": "Bastian Schweinsteiger",
-                    "eventDateCET": "2016-06-12T22:48:47+00:00"
+                    "eventDateCET": "2016-06-12T22:48:56+00:00"
                 }
             ]
         },
@@ -310,23 +310,35 @@
         "id": "2017883",
         "dateTime": "13 June 2016",
         "timestamp": 1465822800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
         "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
             "name": "Spain",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 93148,
+                    "minute": 87,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Piqué",
+                    "playerWebNameAlt": "Gerard Piqué",
+                    "eventDateCET": "2016-06-13T16:42:17+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Czech Republic",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017883"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017954",
