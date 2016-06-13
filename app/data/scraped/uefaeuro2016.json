@@ -390,23 +390,46 @@
         "id": "2017953",
         "dateTime": "13 June 2016",
         "timestamp": 1465844400000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group E",
         "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
             "name": "Belgium",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Italy",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 250025337,
+                    "minute": 32,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Giaccherini",
+                    "playerWebNameAlt": "Emanuele Giaccherini",
+                    "eventDateCET": "2016-06-13T21:32:12+00:00"
+                },
+                {
+                    "idPlayer": 103165,
+                    "minute": 90,
+                    "minuteExtra": 3,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Pellè",
+                    "playerWebNameAlt": "Graziano Pellè",
+                    "eventDateCET": "2016-06-13T22:49:16+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017953"
         },
-        "state": null
+        "state": "Running"
     },
     {
         "id": "2017960",
