@@ -62,7 +62,7 @@ var parseHTML = function(response){
 			id: matchId,
 			dateTime: dateString,
 			timestamp: timestamp,
-			isFuture: !!timeOpts,
+			isFuture: timestamp > Date.now(),
 			round: $('.rname a').eq(i).text(),
 			group: $('.gname a').eq(i).text(),
 			location: location,
@@ -86,6 +86,7 @@ var getMatches = function(matches){
 			return match;
 		}
 		else{
+			console.log('GET ' + match.home.name + ' v ' + match.away.name);
 			return request(match.url).then(function (response) {
 				match.response = response.ok ? JSON.parse(response.body) : {};
 				return match;

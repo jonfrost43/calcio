@@ -344,23 +344,47 @@
         "id": "2017954",
         "dateTime": "13 June 2016",
         "timestamp": 1465833600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group E",
         "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
             "name": "Republic of Ireland",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 60868,
+                    "minute": 48,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Hoolahan",
+                    "playerWebNameAlt": "Wes Hoolahan",
+                    "eventDateCET": "2016-06-13T19:04:42+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Sweden",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 103871,
+                    "minute": 71,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": "O",
+                    "playerWebName": "Clark",
+                    "playerWebNameAlt": "Ciaran Clark",
+                    "eventDateCET": "2016-06-13T19:28:35+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017954"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017953",
