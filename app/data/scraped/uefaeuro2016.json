@@ -31,6 +31,17 @@
                     "playerWebName": "Payet",
                     "playerWebNameAlt": "Dimitri Payet",
                     "eventDateCET": "2016-06-10T22:48:09+00:00"
+                },
+                {
+                    "idPlayer": 1901409,
+                    "minute": 89,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Payet",
+                    "playerWebNameAlt": "Dimitri Payet",
+                    "eventDateCET": "2016-06-10T22:48:09+00:00"
                 }
             ]
         },
@@ -480,23 +491,47 @@
         "id": "2017959",
         "dateTime": "14 June 2016",
         "timestamp": 1465930800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group F",
         "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
             "name": "Portugal",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 101336,
+                    "minute": 31,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Nani",
+                    "playerWebNameAlt": "Nani",
+                    "eventDateCET": "2016-06-14T21:31:20+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Iceland",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 97142,
+                    "minute": 50,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "B. Bjarnason",
+                    "playerWebNameAlt": "Birkir Bjarnason",
+                    "eventDateCET": "2016-06-14T22:05:39+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017959"
         },
-        "state": "Running"
+        "state": "Played"
     },
     {
         "id": "2017888",
