@@ -526,23 +526,58 @@
         "id": "2017888",
         "dateTime": "15 June 2016",
         "timestamp": 1465995600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
         "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
             "name": "Russia",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 250002908,
+                    "minute": 80,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Glushakov",
+                    "playerWebNameAlt": "Denis Glushakov",
+                    "eventDateCET": "2016-06-15T16:36:11+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Slovakia",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 102153,
+                    "minute": 32,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Weiss",
+                    "playerWebNameAlt": "Vladimír Weiss",
+                    "eventDateCET": "2016-06-15T15:31:46+00:00"
+                },
+                {
+                    "idPlayer": 73965,
+                    "minute": 45,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Hamšík",
+                    "playerWebNameAlt": "Marek Hamšík",
+                    "eventDateCET": "2016-06-15T15:44:44+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017888"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017886",
