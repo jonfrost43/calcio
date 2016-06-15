@@ -20,6 +20,10 @@ function($, component, doT, moment, template, utils){
 			})
 			.then(this.render.bind(this))
 			.then(this.scrollToLatest.bind(this));
+
+			// this.$el.on('click', '.match', function(e){
+			// 	$(e.currentTarget).find('.extra').toggle();
+			// }.bind(this));
 		},
 
 		render: function(days){
@@ -46,7 +50,7 @@ function($, component, doT, moment, template, utils){
 			var $results = this.$el.find('.result');
 
 			if($results.length){
-				this.$el.parents('section').scrollTop($results.last().parent().position().top - 100);
+				this.$el.parents('section').scrollTop($results.last().closest('.matchDay').position().top - 100);
 			}
 		}
 	});

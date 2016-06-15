@@ -1,33 +1,41 @@
 .match {
-	display: flex;
-	margin-bottom: 1.5em;
+	//cursor: pointer;
 
-	.homeTeam, .awayTeam {
-		flex: 1;
+	.teams {
+		display: flex;
+		margin-bottom: 1.5em;
+
+		.homeTeam, .awayTeam {
+			flex: 1;
+		}
+
+		.homeTeam {
+			text-align: right;
+		}
+
+		.awayTeam {
+			text-align: left;
+		}
+
+		.score, .time {
+			flex: 0;
+			padding: 0px 8px 0px;
+			border-radius: 8px;
+			margin: 0 10px;
+		}
+
+		.score {
+			font-weight: bold;
+			background-color: #68c2f5;
+			color: #000;
+		}
+
+		.time {
+			background-color: #333;
+		}
 	}
 
-	.homeTeam {
-		text-align: right;
-	}
-
-	.awayTeam {
-		text-align: left;
-	}
-
-	.score, .time {
-		flex: 0;
-	    padding: 0px 8px 0px;
-	    border-radius: 8px;
-	    margin: 0 10px;
-	}
-
-	.score {
-	    font-weight: bold;
-	    background-color: #68c2f5;
-		color: #000;
-	}
-
-	.time {
-	    background-color: #333;
+	.extra {
+		display: none;
 	}
 }
