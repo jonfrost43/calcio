@@ -5,9 +5,10 @@ requirejs([
 	'app/sections',
 	'app/countdown',
 	'app/matches',
-	'app/standings'
+	'app/standings',
+	'app/scorers'
 ],
-function($, notifications, nav, sections, countdown, matches, standings){
+function($, notifications, nav, sections, countdown, matches, standings, scorers){
 	var notifications = notifications($('.notifications'));
 
 	var sections = sections($('#main'));
@@ -19,6 +20,8 @@ function($, notifications, nav, sections, countdown, matches, standings){
 	matches($('.matches'));
 
 	standings($('.standings'));
+
+	scorers($('.scorers'));
 
 	$(document).on('notify', function(e, message){
 		notifications.add(message);

@@ -60,6 +60,45 @@ exports.handler = function(request, response){
 			});
 		}
 
+		if(request.params.format === 'scorers'){
+			data = _.flatten(data.filter(function(match){
+				return !match.isFuture;
+			})
+			.map(function(match){
+				match.home.goals.forEach(function(goal){
+					goal.team = match.home.name;
+				});
+				match.away.goals.forEach(function(goal){
+					goal.team = match.away.name;
+				});
+				return match.home.goals.concat(match.away.goals);
+			}))
+			.filter(function(goal){
+				return goal.eventsubcode !== 'O';
+			})
+			.reduce(function(scorers, goal){
+				var scorerIndex = _.findIndex(scorers, {id: goal.idPlayer});
+
+				if(scorerIndex > -1){
+					scorers[scorerIndex].goals.push(goal);
+				}
+				else{
+					scorers.push({
+						id: goal.idPlayer,
+						name: goal.playerWebNameAlt,
+						team: goal.team,
+						goals: [goal]
+					});
+				}
+
+				return scorers;
+			}, []);
+
+			data = _.sortBy(data, function(s){
+				return s.goals.length * -1;
+			});
+		}
+
 		response.send(data);
 	});
 }

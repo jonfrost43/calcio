@@ -1,0 +1,25 @@
+.scorers {
+	p {
+		display: flex;
+		text-align: left;
+		padding: 0 10px;
+
+		.name {
+			flex: 3;
+			font-weight: bold;
+		}
+		.team {
+			flex: 2;
+		}
+		.goals {
+			flex: 0;
+		}
+	}
+}
+
+@media (min-width: 500px) {
+    .scorers {
+        margin: 0 auto;
+        width: 480px;
+    }
+}
