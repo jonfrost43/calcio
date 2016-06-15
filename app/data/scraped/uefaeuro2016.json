@@ -623,29 +623,52 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017886"
         },
-        "state": "Running"
+        "state": "Played"
     },
     {
         "id": "2017885",
         "dateTime": "15 June 2016",
         "timestamp": 1466017200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
         "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
             "name": "France",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 250019498,
+                    "minute": 90,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Griezmann",
+                    "playerWebNameAlt": "Antoine Griezmann",
+                    "eventDateCET": "2016-06-15T22:48:20+00:00"
+                },
+                {
+                    "idPlayer": 1901409,
+                    "minute": 90,
+                    "minuteExtra": 6,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Payet",
+                    "playerWebNameAlt": "Dimitri Payet",
+                    "eventDateCET": "2016-06-15T22:54:15+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Albania",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017885"
         },
-        "state": null
+        "state": "Running"
     },
     {
         "id": "2017887",
