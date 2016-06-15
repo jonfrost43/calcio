@@ -583,23 +583,47 @@
         "id": "2017886",
         "dateTime": "15 June 2016",
         "timestamp": 1466006400000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
         "location": "Parc des Princes, Paris (FRA) ",
         "home": {
             "name": "Romania",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 1902650,
+                    "minute": 18,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "Stancu",
+                    "playerWebNameAlt": "Bogdan Stancu",
+                    "eventDateCET": "2016-06-15T18:18:07+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Switzerland",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 1905353,
+                    "minute": 57,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Mehmedi",
+                    "playerWebNameAlt": "Admir Mehmedi",
+                    "eventDateCET": "2016-06-15T19:12:35+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017886"
         },
-        "state": null
+        "state": "Running"
     },
     {
         "id": "2017885",
