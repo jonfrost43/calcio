@@ -731,23 +731,46 @@
         "id": "2017890",
         "dateTime": "16 June 2016",
         "timestamp": 1466092800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
         "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
             "name": "Ukraine",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Northern Ireland",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 65248,
+                    "minute": 49,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "McAuley",
+                    "playerWebNameAlt": "Gareth McAuley",
+                    "eventDateCET": "2016-06-16T19:03:49+00:00"
+                },
+                {
+                    "idPlayer": 104747,
+                    "minute": 90,
+                    "minuteExtra": 6,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "McGinn",
+                    "playerWebNameAlt": "Niall McGinn",
+                    "eventDateCET": "2016-06-16T19:51:20+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017890"
         },
-        "state": null
+        "state": "Running"
     },
     {
         "id": "2017889",
