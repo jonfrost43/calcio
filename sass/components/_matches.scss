@@ -3,6 +3,7 @@
 	margin-bottom: 1em;
 	padding: 1em 0 0;
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-transform: translate3d(0, 0, 0);
 	transition: all 0.4s;
 	height: 33px;
 	overflow: hidden;
@@ -81,6 +82,7 @@
 	}
 	.round {
 		transition: margin-top 0.4s;
+		-webkit-transform: translate3d(0, 0, 0);
 		margin-top: -33px;
 	}
 }
