@@ -21,9 +21,9 @@ function($, component, doT, moment, template, utils){
 			.then(this.render.bind(this))
 			.then(this.scrollToLatest.bind(this));
 
-			// this.$el.on('click', '.match', function(e){
-			// 	$(e.currentTarget).find('.extra').toggle();
-			// }.bind(this));
+			this.$el.on('click', '.match', function(e){
+				$(e.currentTarget).toggleClass('selected');
+			}.bind(this));
 		},
 
 		render: function(days){

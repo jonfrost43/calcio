@@ -1,9 +1,23 @@
 .match {
-	//cursor: pointer;
+	cursor: pointer;
+	margin-bottom: 1em;
+	padding: 1em 0 0;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	transition: all 0.4s;
+	height: 33px;
+	overflow: hidden;
+
+	&.selected {
+		background-color: #222;
+		height: 105px;
+
+		.round {
+			margin-top: 0;
+		}
+	}
 
 	.teams {
 		display: flex;
-		margin-bottom: 1.5em;
 
 		.homeTeam, .awayTeam {
 			flex: 1;
@@ -35,7 +49,38 @@
 		}
 	}
 
-	.extra {
+	.flex {
+		display: flex;
+
+		.left, .right {
+			flex: 1;
+		}
+
+		.left {
+			text-align: right;
+		}
+
+		.right {
+			text-align: left;
+		}
+
+		.center {
+			flex: 0;
+			padding: 0px 8px 0px;
+			margin: 0 10px;
+		}
+
+	}
+
+	.goals {
 		display: none;
+	}
+
+	.extra {
+		font-size: 1.3em;
+	}
+	.round {
+		transition: margin-top 0.4s;
+		margin-top: -33px;
 	}
 }

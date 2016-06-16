@@ -3,7 +3,7 @@
         <h3><span>{{=day.calendar}}</span></h3>
         {{~day.matches :match}}
         <div class="match">
-            <p class="extra">
+            <p class="extra round">
                 {{=match.group}}
             </p>
             <p class="teams {{?match.isFuture}}fixture{{??}}result{{?}}">
@@ -15,7 +15,22 @@
                 {{?}}
                 <span class="awayTeam">{{=match.away.name}}</span>
             </p>
-            <p class="extra">
+            <div class="flex goals">
+                <div class="left">
+                    {{~match.home.goals :goal}}
+                    {{=goal.playerWebName}},
+                    {{~}}
+                </div>
+                <div class="center">
+
+                </div>
+                <div class="right">
+                    {{~match.away.goals :goal}}
+                    {{=goal.playerWebName}}
+                    {{~}}
+                </div>
+            </div>
+            <p class="extra location">
                 {{=match.location}}
             </p>
         </div>
