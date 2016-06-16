@@ -770,29 +770,29 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017890"
         },
-        "state": "Running"
+        "state": "Played"
     },
     {
         "id": "2017889",
         "dateTime": "16 June 2016",
         "timestamp": 1466103600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
         "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
             "name": "Germany",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Poland",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017889"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017956",
