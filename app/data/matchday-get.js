@@ -88,7 +88,7 @@ var getMatches = function(matches){
 		else{
 			console.log('GET ' + match.home.name + ' v ' + match.away.name);
 			return request(match.url).then(function (response) {
-				match.response = response.ok ? JSON.parse(response.body) : {};
+				match.response = response.ok ? JSON.parse(response.body) : null;
 				return match;
 			});
 		}

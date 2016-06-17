@@ -623,7 +623,8 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017886"
         },
-        "state": "Played"
+        "state": "Played",
+        "response": null
     },
     {
         "id": "2017885",
@@ -852,14 +853,14 @@
                 },
                 {
                     "idPlayer": 102312,
-                    "minute": 90,
-                    "minuteExtra": 4,
+                    "minute": 89,
+                    "minuteExtra": 0,
                     "phase": 2,
                     "idEventCode": 3,
                     "eventsubcode": "P",
                     "playerWebName": "Necid",
                     "playerWebNameAlt": "Tomáš Necid",
-                    "eventDateCET": "2016-06-17T19:49:06+00:00"
+                    "eventDateCET": "2016-06-17T19:49:07+00:00"
                 }
             ]
         },
@@ -900,23 +901,57 @@
         "id": "2017891",
         "dateTime": "17 June 2016",
         "timestamp": 1466190000000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
         "location": "Stade de Nice, Nice (FRA) ",
         "home": {
             "name": "Spain",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 250024456,
+                    "minute": 34,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Morata",
+                    "playerWebNameAlt": "Álvaro Morata",
+                    "eventDateCET": "2016-06-17T21:33:54+00:00"
+                },
+                {
+                    "idPlayer": 250022288,
+                    "minute": 37,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Nolito",
+                    "playerWebNameAlt": "Nolito",
+                    "eventDateCET": "2016-06-17T21:36:26+00:00"
+                },
+                {
+                    "idPlayer": 250024456,
+                    "minute": 48,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Morata",
+                    "playerWebNameAlt": "Álvaro Morata",
+                    "eventDateCET": "2016-06-17T22:05:56+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Turkey",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017891"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017955",

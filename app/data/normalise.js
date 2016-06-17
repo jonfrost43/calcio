@@ -30,18 +30,18 @@ var uefaLibrary = function(matches){
 
 var daaseuro2016 = function(matches){
 	return matches.map(function(match){
-		match = _.merge(match, {
-			state: match.response ? match.response.match.statusDescr : null,
-			timestamp: match.response ? Date.parse(match.response.match.dateTime.replace(' ', '')) : match.timestamp,
-			home: {
-				goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.homeGoals : null
-			},
-			away: {
-				goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.awayGoals : null
-			}
-		});
-
 		if(match.response){
+			match = _.merge(match, {
+				state: match.response ? match.response.match.statusDescr : null,
+				timestamp: match.response ? Date.parse(match.response.match.dateTime.replace(' ', '')) : match.timestamp,
+				home: {
+					goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.homeGoals : null
+				},
+				away: {
+					goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.awayGoals : null
+				}
+			});
+
 			delete match.response;
 		}
 
