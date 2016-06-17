@@ -690,7 +690,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Vardy",
                     "playerWebNameAlt": "Jamie Vardy",
-                    "eventDateCET": "2016-06-16T16:14:02+00:00"
+                    "eventDateCET": "2016-06-16T16:14:08+00:00"
                 },
                 {
                     "idPlayer": 103561,
@@ -701,7 +701,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Sturridge",
                     "playerWebNameAlt": "Daniel Sturridge",
-                    "eventDateCET": "2016-06-16T16:49:38+00:00"
+                    "eventDateCET": "2016-06-16T16:49:46+00:00"
                 }
             ]
         },
@@ -717,7 +717,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Bale",
                     "playerWebNameAlt": "Gareth Bale",
-                    "eventDateCET": "2016-06-16T15:43:25+00:00"
+                    "eventDateCET": "2016-06-16T15:43:33+00:00"
                 }
             ]
         },
@@ -751,7 +751,7 @@
                     "eventsubcode": null,
                     "playerWebName": "McAuley",
                     "playerWebNameAlt": "Gareth McAuley",
-                    "eventDateCET": "2016-06-16T19:03:49+00:00"
+                    "eventDateCET": "2016-06-16T19:03:54+00:00"
                 },
                 {
                     "idPlayer": 104747,
@@ -762,7 +762,7 @@
                     "eventsubcode": null,
                     "playerWebName": "McGinn",
                     "playerWebNameAlt": "Niall McGinn",
-                    "eventDateCET": "2016-06-16T19:51:20+00:00"
+                    "eventDateCET": "2016-06-16T19:51:19+00:00"
                 }
             ]
         },
@@ -798,23 +798,35 @@
         "id": "2017956",
         "dateTime": "17 June 2016",
         "timestamp": 1466168400000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group E",
         "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
             "name": "Italy",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 1906181,
+                    "minute": 88,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Éder",
+                    "playerWebNameAlt": "Éder",
+                    "eventDateCET": "2016-06-17T16:44:12+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Sweden",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017956"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017892",
