@@ -832,23 +832,69 @@
         "id": "2017892",
         "dateTime": "17 June 2016",
         "timestamp": 1466179200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
         "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
             "name": "Czech Republic",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 1908451,
+                    "minute": 76,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Škoda",
+                    "playerWebNameAlt": "Milan Škoda",
+                    "eventDateCET": "2016-06-17T19:31:12+00:00"
+                },
+                {
+                    "idPlayer": 102312,
+                    "minute": 90,
+                    "minuteExtra": 4,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "Necid",
+                    "playerWebNameAlt": "Tomáš Necid",
+                    "eventDateCET": "2016-06-17T19:49:06+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Croatia",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 103310,
+                    "minute": 37,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Perišić",
+                    "playerWebNameAlt": "Ivan Perišić",
+                    "eventDateCET": "2016-06-17T18:36:52+00:00"
+                },
+                {
+                    "idPlayer": 97744,
+                    "minute": 59,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Rakitić",
+                    "playerWebNameAlt": "Ivan Rakitić",
+                    "eventDateCET": "2016-06-17T19:14:48+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017892"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017891",
