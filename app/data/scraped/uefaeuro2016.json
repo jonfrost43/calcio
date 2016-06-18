@@ -577,7 +577,8 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017888"
         },
-        "state": "Played"
+        "state": "Played",
+        "response": null
     },
     {
         "id": "2017886",
@@ -1059,23 +1060,23 @@
         "id": "2017961",
         "dateTime": "18 June 2016",
         "timestamp": 1466276400000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group F",
         "location": "Parc des Princes, Paris (FRA) ",
         "home": {
             "name": "Portugal",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Austria",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017961"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017893",
