@@ -1013,23 +1013,47 @@
         "id": "2017962",
         "dateTime": "18 June 2016",
         "timestamp": 1466265600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group F",
         "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
             "name": "Iceland",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 102293,
+                    "minute": 40,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "G. Sigurdsson",
+                    "playerWebNameAlt": "Gylfi Sigurdsson",
+                    "eventDateCET": "2016-06-18T18:39:20+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Hungary",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 104623,
+                    "minute": 88,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": "O",
+                    "playerWebName": "B. Sævarsson",
+                    "playerWebNameAlt": "Birkir Sævarsson",
+                    "eventDateCET": "2016-06-18T19:43:32+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017962"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017961",
