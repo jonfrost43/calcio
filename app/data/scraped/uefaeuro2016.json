@@ -1082,45 +1082,57 @@
         "id": "2017893",
         "dateTime": "19 June 2016",
         "timestamp": 1466362800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
         "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
             "name": "Switzerland",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "France",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017893"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017894",
         "dateTime": "19 June 2016",
         "timestamp": 1466362800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group A",
         "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
             "name": "Romania",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Albania",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 250014647,
+                    "minute": 43,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Sadiku",
+                    "playerWebNameAlt": "Armando Sadiku",
+                    "eventDateCET": "2016-06-19T21:43:19+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017894"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017895",
