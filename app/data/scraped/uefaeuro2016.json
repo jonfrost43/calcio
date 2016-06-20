@@ -1124,7 +1124,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Sadiku",
                     "playerWebNameAlt": "Armando Sadiku",
-                    "eventDateCET": "2016-06-19T21:43:19+00:00"
+                    "eventDateCET": "2016-06-19T21:43:23+00:00"
                 }
             ]
         },
@@ -1138,45 +1138,79 @@
         "id": "2017895",
         "dateTime": "20 June 2016",
         "timestamp": 1466449200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
         "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
             "name": "Slovakia",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "England",
-            "goals": null
+            "goals": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017895"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017896",
         "dateTime": "20 June 2016",
         "timestamp": 1466449200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group B",
         "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
             "name": "Russia",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Wales",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 103769,
+                    "minute": 11,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Ramsey",
+                    "playerWebNameAlt": "Aaron Ramsey",
+                    "eventDateCET": "2016-06-20T21:10:30+00:00"
+                },
+                {
+                    "idPlayer": 102222,
+                    "minute": 20,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "N. Taylor",
+                    "playerWebNameAlt": "Neil Taylor",
+                    "eventDateCET": "2016-06-20T21:19:42+00:00"
+                },
+                {
+                    "idPlayer": 102225,
+                    "minute": 67,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Bale",
+                    "playerWebNameAlt": "Gareth Bale",
+                    "eventDateCET": "2016-06-20T22:23:12+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017896"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017897",
