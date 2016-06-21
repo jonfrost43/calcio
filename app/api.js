@@ -97,6 +97,21 @@ exports.handler = function(request, response){
 			data = _.sortBy(data, function(s){
 				return s.goals.length * -1;
 			});
+
+			var counts = _.uniq(_.map(data, function(s){
+				return s.goals.length;
+			}));
+
+			var scorerGroups = counts.map(function(count){
+				return {
+					title: count < 2 ? count + ' goal' : count + ' goals',
+					scorers: data.filter(function(scorer){
+						return scorer.goals.length === count;
+					})
+				};
+			});
+
+			data = scorerGroups;
 		}
 
 		response.send(data);
