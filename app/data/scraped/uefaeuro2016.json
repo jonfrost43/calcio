@@ -1180,7 +1180,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Ramsey",
                     "playerWebNameAlt": "Aaron Ramsey",
-                    "eventDateCET": "2016-06-20T21:10:30+00:00"
+                    "eventDateCET": "2016-06-20T21:10:34+00:00"
                 },
                 {
                     "idPlayer": 102222,
@@ -1191,7 +1191,7 @@
                     "eventsubcode": null,
                     "playerWebName": "N. Taylor",
                     "playerWebNameAlt": "Neil Taylor",
-                    "eventDateCET": "2016-06-20T21:19:42+00:00"
+                    "eventDateCET": "2016-06-20T21:19:45+00:00"
                 },
                 {
                     "idPlayer": 102225,
@@ -1202,7 +1202,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Bale",
                     "playerWebNameAlt": "Gareth Bale",
-                    "eventDateCET": "2016-06-20T22:23:12+00:00"
+                    "eventDateCET": "2016-06-20T22:23:16+00:00"
                 }
             ]
         },
@@ -1216,45 +1216,69 @@
         "id": "2017897",
         "dateTime": "21 June 2016",
         "timestamp": 1466524800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
         "location": "Parc des Princes, Paris (FRA) ",
         "home": {
             "name": "Northern Ireland",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Germany",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 62588,
+                    "minute": 30,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Gomez",
+                    "playerWebNameAlt": "Mario Gomez",
+                    "eventDateCET": "2016-06-21T18:29:39+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017897"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017898",
         "dateTime": "21 June 2016",
         "timestamp": 1466524800000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group C",
         "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
             "name": "Ukraine",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Poland",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 93621,
+                    "minute": 54,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Błaszczykowski",
+                    "playerWebNameAlt": "Jakub Błaszczykowski",
+                    "eventDateCET": "2016-06-21T19:10:06+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017898"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017899",
