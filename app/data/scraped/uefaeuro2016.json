@@ -1236,7 +1236,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Gomez",
                     "playerWebNameAlt": "Mario Gomez",
-                    "eventDateCET": "2016-06-21T18:29:39+00:00"
+                    "eventDateCET": "2016-06-21T18:29:43+00:00"
                 }
             ]
         },
@@ -1270,7 +1270,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Błaszczykowski",
                     "playerWebNameAlt": "Jakub Błaszczykowski",
-                    "eventDateCET": "2016-06-21T19:10:06+00:00"
+                    "eventDateCET": "2016-06-21T19:10:08+00:00"
                 }
             ]
         },
@@ -1284,45 +1284,103 @@
         "id": "2017899",
         "dateTime": "21 June 2016",
         "timestamp": 1466535600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
         "location": "Stade de Bordeaux, Bordeaux (FRA) ",
         "home": {
             "name": "Croatia",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 97212,
+                    "minute": 45,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "N. Kalinić",
+                    "playerWebNameAlt": "Nikola Kalinić",
+                    "eventDateCET": "2016-06-21T21:45:04+00:00"
+                },
+                {
+                    "idPlayer": 103310,
+                    "minute": 87,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Perišić",
+                    "playerWebNameAlt": "Ivan Perišić",
+                    "eventDateCET": "2016-06-21T22:43:49+00:00"
+                }
+            ]
         },
         "away": {
             "name": "Spain",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 250024456,
+                    "minute": 7,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Morata",
+                    "playerWebNameAlt": "Álvaro Morata",
+                    "eventDateCET": "2016-06-21T21:07:06+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017899"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017900",
         "dateTime": "21 June 2016",
         "timestamp": 1466535600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final tournament - Group stage",
         "group": "Group D",
         "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) ",
         "home": {
             "name": "Czech Republic",
-            "goals": null
+            "goals": []
         },
         "away": {
             "name": "Turkey",
-            "goals": null
+            "goals": [
+                {
+                    "idPlayer": 62309,
+                    "minute": 10,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Burak Yılmaz",
+                    "playerWebNameAlt": "Burak Yılmaz",
+                    "eventDateCET": "2016-06-21T21:09:35+00:00"
+                },
+                {
+                    "idPlayer": 250053203,
+                    "minute": 65,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Ozan Tufan",
+                    "playerWebNameAlt": "Ozan Tufan",
+                    "eventDateCET": "2016-06-21T22:21:20+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017900"
         },
-        "state": null
+        "state": "Played"
     },
     {
         "id": "2017963",
