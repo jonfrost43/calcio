@@ -4,7 +4,7 @@
         {{~day.matches :match}}
         <div class="match">
             <p class="extra round">
-                {{=match.group}}
+                {{?match.group}}{{=match.group}}{{??}}{{=match.round}}{{?}}
             </p>
             <p class="teams {{?match.isFuture}}fixture{{??}}result{{?}}">
                 <span class="homeTeam">{{=match.home.name}}</span>
