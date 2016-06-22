@@ -1596,5 +1596,157 @@
             "path": "/api/v2/football/en/matches/2017958"
         },
         "state": "Played"
+    },
+    {
+        "id": "2017996",
+        "dateTime": "25 June 2016",
+        "timestamp": 1466859600000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
+        "home": {
+            "name": "Switzerland"
+        },
+        "away": {
+            "name": "Poland"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017996"
+        }
+    },
+    {
+        "id": "2017997",
+        "dateTime": "25 June 2016",
+        "timestamp": 1466870400000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Parc des Princes, Paris (FRA) ",
+        "home": {
+            "name": "Wales"
+        },
+        "away": {
+            "name": "Northern Ireland"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017997"
+        }
+    },
+    {
+        "id": "2017998",
+        "dateTime": "25 June 2016",
+        "timestamp": 1466881200000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) ",
+        "home": {
+            "name": "Croatia"
+        },
+        "away": {
+            "name": "Portugal"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017998"
+        }
+    },
+    {
+        "id": "2017999",
+        "dateTime": "26 June 2016",
+        "timestamp": 1466946000000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stade de Lyon, Lyon (FRA) ",
+        "home": {
+            "name": "France"
+        },
+        "away": {
+            "name": "Republic of Ireland"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017999"
+        }
+    },
+    {
+        "id": "2018000",
+        "dateTime": "26 June 2016",
+        "timestamp": 1466956800000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
+        "home": {
+            "name": "Germany"
+        },
+        "away": {
+            "name": "Slovakia"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2018000"
+        }
+    },
+    {
+        "id": "2018001",
+        "dateTime": "26 June 2016",
+        "timestamp": 1466967600000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stadium de Toulouse, Toulouse (FRA) ",
+        "home": {
+            "name": "Hungary"
+        },
+        "away": {
+            "name": "Belgium"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2018001"
+        }
+    },
+    {
+        "id": "2018002",
+        "dateTime": "27 June 2016",
+        "timestamp": 1467043200000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stade de France, Saint-Denis (FRA) ",
+        "home": {
+            "name": "Italy"
+        },
+        "away": {
+            "name": "Spain"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2018002"
+        }
+    },
+    {
+        "id": "2018003",
+        "dateTime": "27 June 2016",
+        "timestamp": 1467054000000,
+        "isFuture": true,
+        "round": "Round of 16",
+        "group": "",
+        "location": "Stade de Nice, Nice (FRA) ",
+        "home": {
+            "name": "England"
+        },
+        "away": {
+            "name": "Iceland"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2018003"
+        }
     }
 ]
