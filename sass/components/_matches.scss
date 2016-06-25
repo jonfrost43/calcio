@@ -1,9 +1,10 @@
 .match {
 	//cursor: pointer;
+	margin-bottom: 2.3em;
 
 	.teams {
 		display: flex;
-		margin-bottom: 1.5em;
+		margin-bottom: 0.75em;
 
 		.homeTeam, .awayTeam {
 			flex: 1;
@@ -37,5 +38,9 @@
 
 	.extra {
 		display: none;
+	}
+
+	.reasonWin {
+		font-size: 1.3em;
 	}
 }

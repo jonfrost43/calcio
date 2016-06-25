@@ -35,11 +35,15 @@ var daaseuro2016 = function(matches){
 				state: match.response ? match.response.match.statusDescr : null,
 				timestamp: match.response ? Date.parse(match.response.match.dateTime.replace(' ', '')) : match.timestamp,
 				home: {
-					goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.homeGoals : null
+					goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.homeGoals : null,
+					penalties: match.response.match.penaltyShootout.penaltyShootoutHome ? match.response.match.penaltyShootout.penaltyShootoutHome : null
 				},
 				away: {
-					goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.awayGoals : null
-				}
+					goals: match.response && match.response.match.results.scorers ? match.response.match.results.scorers.awayGoals : null,
+					penalties: match.response.match.penaltyShootout.penaltyShootoutAway	 ? match.response.match.penaltyShootout.penaltyShootoutAway : null
+				},
+				reasonWinTag: match.response.match.results.reasonWinTag,
+				reasonWinTagAbbr: match.response.match.results.reasonWinTagAbbr
 			});
 
 			delete match.response;

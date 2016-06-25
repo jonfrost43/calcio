@@ -15,6 +15,11 @@
                 {{?}}
                 <span class="awayTeam">{{=match.away.name}}</span>
             </p>
+            {{?match.reasonWinTag}}
+            <p class="reasonWin">
+                {{=match.reasonWinTag}}
+            </p>
+            {{?}}
             <p class="extra">
                 {{=match.location}}
             </p>

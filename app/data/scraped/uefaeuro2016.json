@@ -1601,39 +1601,201 @@
         "id": "2017996",
         "dateTime": "25 June 2016",
         "timestamp": 1466859600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Round of 16",
         "group": "",
         "location": "Stade Geoffroy Guichard, Saint-Etienne (FRA) ",
         "home": {
-            "name": "Switzerland"
+            "name": "Switzerland",
+            "goals": [
+                {
+                    "idPlayer": 1905360,
+                    "minute": 82,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Shaqiri",
+                    "playerWebNameAlt": "Xherdan Shaqiri",
+                    "eventDateCET": "2016-06-25T16:39:38+00:00"
+                }
+            ],
+            "penalties": [
+                {
+                    "idPlayer": 56942,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Lichtsteiner",
+                    "playerWebNameAlt": "Stephan Lichtsteiner",
+                    "eventDateCET": "2016-06-25T17:35:06+00:00"
+                },
+                {
+                    "idPlayer": 250004721,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "W",
+                    "playerWebName": "Xhaka",
+                    "playerWebNameAlt": "Granit Xhaka",
+                    "eventDateCET": "2016-06-25T17:36:36+00:00"
+                },
+                {
+                    "idPlayer": 1905360,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Shaqiri",
+                    "playerWebNameAlt": "Xherdan Shaqiri",
+                    "eventDateCET": "2016-06-25T17:37:58+00:00"
+                },
+                {
+                    "idPlayer": 250050401,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Schär",
+                    "playerWebNameAlt": "Fabian Schär",
+                    "eventDateCET": "2016-06-25T17:39:11+00:00"
+                },
+                {
+                    "idPlayer": 250011089,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Rodríguez",
+                    "playerWebNameAlt": "Ricardo Rodríguez",
+                    "eventDateCET": "2016-06-25T17:40:26+00:00"
+                }
+            ]
         },
         "away": {
-            "name": "Poland"
+            "name": "Poland",
+            "goals": [
+                {
+                    "idPlayer": 93621,
+                    "minute": 39,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Błaszczykowski",
+                    "playerWebNameAlt": "Jakub Błaszczykowski",
+                    "eventDateCET": "2016-06-25T15:38:34+00:00"
+                }
+            ],
+            "penalties": [
+                {
+                    "idPlayer": 250002096,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Lewandowski",
+                    "playerWebNameAlt": "Robert Lewandowski",
+                    "eventDateCET": "2016-06-25T17:35:47+00:00"
+                },
+                {
+                    "idPlayer": 250043124,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Milik",
+                    "playerWebNameAlt": "Arkadiusz Milik",
+                    "eventDateCET": "2016-06-25T17:37:13+00:00"
+                },
+                {
+                    "idPlayer": 1902388,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Glik",
+                    "playerWebNameAlt": "Kamil Glik",
+                    "eventDateCET": "2016-06-25T17:38:30+00:00"
+                },
+                {
+                    "idPlayer": 93621,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Błaszczykowski",
+                    "playerWebNameAlt": "Jakub Błaszczykowski",
+                    "eventDateCET": "2016-06-25T17:39:51+00:00"
+                },
+                {
+                    "idPlayer": 102092,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Krychowiak",
+                    "playerWebNameAlt": "Grzegorz Krychowiak",
+                    "eventDateCET": "2016-06-25T17:41:09+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017996"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "Poland wins 5-4 on penalties",
+        "reasonWinTagAbbr": "(4-5 p)"
     },
     {
         "id": "2017997",
         "dateTime": "25 June 2016",
         "timestamp": 1466870400000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Round of 16",
         "group": "",
         "location": "Parc des Princes, Paris (FRA) ",
         "home": {
-            "name": "Wales"
+            "name": "Wales",
+            "goals": [
+                {
+                    "idPlayer": 65248,
+                    "minute": 75,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": "O",
+                    "playerWebName": "McAuley",
+                    "playerWebNameAlt": "Gareth McAuley",
+                    "eventDateCET": "2016-06-25T19:31:18+00:00"
+                }
+            ],
+            "penalties": []
         },
         "away": {
-            "name": "Northern Ireland"
+            "name": "Northern Ireland",
+            "goals": [],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017997"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "",
+        "reasonWinTagAbbr": null
     },
     {
         "id": "2017998",
