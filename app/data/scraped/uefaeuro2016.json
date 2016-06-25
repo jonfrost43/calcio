@@ -1617,7 +1617,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Shaqiri",
                     "playerWebNameAlt": "Xherdan Shaqiri",
-                    "eventDateCET": "2016-06-25T16:39:38+00:00"
+                    "eventDateCET": "2016-06-25T16:39:42+00:00"
                 }
             ],
             "penalties": [
@@ -1630,7 +1630,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Lichtsteiner",
                     "playerWebNameAlt": "Stephan Lichtsteiner",
-                    "eventDateCET": "2016-06-25T17:35:06+00:00"
+                    "eventDateCET": "2016-06-25T18:05:07+00:00"
                 },
                 {
                     "idPlayer": 250004721,
@@ -1641,7 +1641,7 @@
                     "eventsubcode": "W",
                     "playerWebName": "Xhaka",
                     "playerWebNameAlt": "Granit Xhaka",
-                    "eventDateCET": "2016-06-25T17:36:36+00:00"
+                    "eventDateCET": "2016-06-25T18:06:37+00:00"
                 },
                 {
                     "idPlayer": 1905360,
@@ -1652,7 +1652,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Shaqiri",
                     "playerWebNameAlt": "Xherdan Shaqiri",
-                    "eventDateCET": "2016-06-25T17:37:58+00:00"
+                    "eventDateCET": "2016-06-25T18:07:58+00:00"
                 },
                 {
                     "idPlayer": 250050401,
@@ -1663,7 +1663,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Schär",
                     "playerWebNameAlt": "Fabian Schär",
-                    "eventDateCET": "2016-06-25T17:39:11+00:00"
+                    "eventDateCET": "2016-06-25T18:09:11+00:00"
                 },
                 {
                     "idPlayer": 250011089,
@@ -1674,7 +1674,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Rodríguez",
                     "playerWebNameAlt": "Ricardo Rodríguez",
-                    "eventDateCET": "2016-06-25T17:40:26+00:00"
+                    "eventDateCET": "2016-06-25T18:10:26+00:00"
                 }
             ]
         },
@@ -1690,7 +1690,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Błaszczykowski",
                     "playerWebNameAlt": "Jakub Błaszczykowski",
-                    "eventDateCET": "2016-06-25T15:38:34+00:00"
+                    "eventDateCET": "2016-06-25T15:38:38+00:00"
                 }
             ],
             "penalties": [
@@ -1703,7 +1703,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Lewandowski",
                     "playerWebNameAlt": "Robert Lewandowski",
-                    "eventDateCET": "2016-06-25T17:35:47+00:00"
+                    "eventDateCET": "2016-06-25T18:05:47+00:00"
                 },
                 {
                     "idPlayer": 250043124,
@@ -1714,7 +1714,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Milik",
                     "playerWebNameAlt": "Arkadiusz Milik",
-                    "eventDateCET": "2016-06-25T17:37:13+00:00"
+                    "eventDateCET": "2016-06-25T18:07:14+00:00"
                 },
                 {
                     "idPlayer": 1902388,
@@ -1725,7 +1725,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Glik",
                     "playerWebNameAlt": "Kamil Glik",
-                    "eventDateCET": "2016-06-25T17:38:30+00:00"
+                    "eventDateCET": "2016-06-25T18:08:31+00:00"
                 },
                 {
                     "idPlayer": 93621,
@@ -1736,7 +1736,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Błaszczykowski",
                     "playerWebNameAlt": "Jakub Błaszczykowski",
-                    "eventDateCET": "2016-06-25T17:39:51+00:00"
+                    "eventDateCET": "2016-06-25T18:09:52+00:00"
                 },
                 {
                     "idPlayer": 102092,
@@ -1747,7 +1747,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Krychowiak",
                     "playerWebNameAlt": "Grzegorz Krychowiak",
-                    "eventDateCET": "2016-06-25T17:41:09+00:00"
+                    "eventDateCET": "2016-06-25T18:11:10+00:00"
                 }
             ]
         },
@@ -1779,7 +1779,7 @@
                     "eventsubcode": "O",
                     "playerWebName": "McAuley",
                     "playerWebNameAlt": "Gareth McAuley",
-                    "eventDateCET": "2016-06-25T19:31:18+00:00"
+                    "eventDateCET": "2016-06-25T19:31:21+00:00"
                 }
             ],
             "penalties": []
@@ -1801,20 +1801,39 @@
         "id": "2017998",
         "dateTime": "25 June 2016",
         "timestamp": 1466881200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Round of 16",
         "group": "",
         "location": "Stade Bollaert-Delelis, Lens Agglo (FRA) ",
         "home": {
-            "name": "Croatia"
+            "name": "Croatia",
+            "goals": [],
+            "penalties": []
         },
         "away": {
-            "name": "Portugal"
+            "name": "Portugal",
+            "goals": [
+                {
+                    "idPlayer": 53749,
+                    "minute": 117,
+                    "minuteExtra": 0,
+                    "phase": 4,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Quaresma",
+                    "playerWebNameAlt": "Ricardo Quaresma",
+                    "eventDateCET": "2016-06-25T23:25:48+00:00"
+                }
+            ],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017998"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "Portugal win after extra time",
+        "reasonWinTagAbbr": "(a.e.t.)"
     },
     {
         "id": "2017999",
