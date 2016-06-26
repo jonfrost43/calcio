@@ -2064,5 +2064,43 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2018003"
         }
+    },
+    {
+        "id": "2017901",
+        "dateTime": "30 June 2016",
+        "timestamp": 1467313200000,
+        "isFuture": true,
+        "round": "Quarter-finals",
+        "group": "",
+        "location": "Stade Vélodrome, Marseille (FRA) ",
+        "home": {
+            "name": "Poland"
+        },
+        "away": {
+            "name": "Portugal"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017901"
+        }
+    },
+    {
+        "id": "2017902",
+        "dateTime": "1 July 2016",
+        "timestamp": 1467399600000,
+        "isFuture": true,
+        "round": "Quarter-finals",
+        "group": "",
+        "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
+        "home": {
+            "name": "Wales"
+        },
+        "away": {
+            "name": "Belgium"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017902"
+        }
     }
 ]
