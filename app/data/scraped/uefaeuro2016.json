@@ -1822,7 +1822,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Quaresma",
                     "playerWebNameAlt": "Ricardo Quaresma",
-                    "eventDateCET": "2016-06-25T23:25:48+00:00"
+                    "eventDateCET": "2016-06-25T23:25:56+00:00"
                 }
             ],
             "penalties": []
@@ -1839,20 +1839,62 @@
         "id": "2017999",
         "dateTime": "26 June 2016",
         "timestamp": 1466946000000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Round of 16",
         "group": "",
         "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
-            "name": "France"
+            "name": "France",
+            "goals": [
+                {
+                    "idPlayer": 250019498,
+                    "minute": 58,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Griezmann",
+                    "playerWebNameAlt": "Antoine Griezmann",
+                    "eventDateCET": "2016-06-26T16:16:46+00:00"
+                },
+                {
+                    "idPlayer": 250019498,
+                    "minute": 61,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Griezmann",
+                    "playerWebNameAlt": "Antoine Griezmann",
+                    "eventDateCET": "2016-06-26T16:20:32+00:00"
+                }
+            ],
+            "penalties": []
         },
         "away": {
-            "name": "Republic of Ireland"
+            "name": "Republic of Ireland",
+            "goals": [
+                {
+                    "idPlayer": 1909047,
+                    "minute": 2,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "Brady",
+                    "playerWebNameAlt": "Robbie Brady",
+                    "eventDateCET": "2016-06-26T15:02:42+00:00"
+                }
+            ],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017999"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "",
+        "reasonWinTagAbbr": null
     },
     {
         "id": "2018000",
