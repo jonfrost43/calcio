@@ -1916,7 +1916,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Boateng",
                     "playerWebNameAlt": "Jérôme Boateng",
-                    "eventDateCET": "2016-06-26T18:08:40+00:00"
+                    "eventDateCET": "2016-06-26T18:08:48+00:00"
                 },
                 {
                     "idPlayer": 62588,
@@ -1927,7 +1927,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Gomez",
                     "playerWebNameAlt": "Mario Gomez",
-                    "eventDateCET": "2016-06-26T18:43:40+00:00"
+                    "eventDateCET": "2016-06-26T18:43:49+00:00"
                 },
                 {
                     "idPlayer": 250026763,
@@ -1938,7 +1938,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Draxler",
                     "playerWebNameAlt": "Julian Draxler",
-                    "eventDateCET": "2016-06-26T19:19:37+00:00"
+                    "eventDateCET": "2016-06-26T19:19:46+00:00"
                 }
             ],
             "penalties": []
@@ -1952,7 +1952,7 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2018000"
         },
-        "state": "Running",
+        "state": "Played",
         "reasonWinTag": "",
         "reasonWinTagAbbr": null
     },
@@ -1960,20 +1960,72 @@
         "id": "2018001",
         "dateTime": "26 June 2016",
         "timestamp": 1466967600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Round of 16",
         "group": "",
         "location": "Stadium de Toulouse, Toulouse (FRA) ",
         "home": {
-            "name": "Hungary"
+            "name": "Hungary",
+            "goals": [],
+            "penalties": []
         },
         "away": {
-            "name": "Belgium"
+            "name": "Belgium",
+            "goals": [
+                {
+                    "idPlayer": 103333,
+                    "minute": 10,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Alderweireld",
+                    "playerWebNameAlt": "Toby Alderweireld",
+                    "eventDateCET": "2016-06-26T21:09:58+00:00"
+                },
+                {
+                    "idPlayer": 250038932,
+                    "minute": 78,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Batshuayi",
+                    "playerWebNameAlt": "Michy Batshuayi",
+                    "eventDateCET": "2016-06-26T22:33:39+00:00"
+                },
+                {
+                    "idPlayer": 1902160,
+                    "minute": 80,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Hazard",
+                    "playerWebNameAlt": "Eden Hazard",
+                    "eventDateCET": "2016-06-26T22:35:12+00:00"
+                },
+                {
+                    "idPlayer": 250040959,
+                    "minute": 90,
+                    "minuteExtra": 1,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Carrasco",
+                    "playerWebNameAlt": "Yannick Carrasco",
+                    "eventDateCET": "2016-06-26T22:46:23+00:00"
+                }
+            ],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2018001"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "",
+        "reasonWinTagAbbr": null
     },
     {
         "id": "2018002",
