@@ -3,9 +3,10 @@
         <h3><span>{{=day.calendar}}</span></h3>
         {{~day.matches :match}}
         <div class="match">
-            <p class="extra">
-                {{=match.group}}
+            <p class="extra round">
+                {{?match.group}}{{=match.group}}{{??}}{{=match.round}}{{?}}
             </p>
+            
             <p class="teams {{?match.isFuture}}fixture{{??}}result{{?}}">
                 <span class="homeTeam">{{=match.home.name}}</span>
                 {{?match.isFuture}}
@@ -15,12 +16,14 @@
                 {{?}}
                 <span class="awayTeam">{{=match.away.name}}</span>
             </p>
+
             {{?match.reasonWinTag}}
             <p class="reasonWin">
                 {{=match.reasonWinTag}}
             </p>
             {{?}}
-            <p class="extra">
+
+            <p class="extra location">
                 {{=match.location}}
             </p>
         </div>

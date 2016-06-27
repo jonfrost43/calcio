@@ -1,10 +1,24 @@
 .match {
-	//cursor: pointer;
-	margin-bottom: 2.3em;
+	cursor: pointer;
+	margin-bottom: 1em;
+	padding: 1em 0 0;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transition: all 0.4s;
+	height: 33px;
+	overflow: hidden;
+
+	&.selected {
+		background-color: #222;
+		height: 105px;
+
+		.round {
+			margin-top: 0;
+		}
+	}
 
 	.teams {
 		display: flex;
-		margin-bottom: 0.75em;
 
 		.homeTeam, .awayTeam {
 			flex: 1;
@@ -36,11 +50,42 @@
 		}
 	}
 
-	.extra {
+	.flex {
+		display: flex;
+
+		.left, .right {
+			flex: 1;
+		}
+
+		.left {
+			text-align: right;
+		}
+
+		.right {
+			text-align: left;
+		}
+
+		.center {
+			flex: 0;
+			padding: 0px 8px 0px;
+			margin: 0 10px;
+		}
+
+	}
+
+	.goals {
 		display: none;
 	}
 
 	.reasonWin {
 		font-size: 1.3em;
+	}
+	.extra {
+		font-size: 1.3em;
+	}
+	.round {
+		transition: margin-top 0.4s;
+		-webkit-transform: translate3d(0, 0, 0);
+		margin-top: -33px;
 	}
 }
