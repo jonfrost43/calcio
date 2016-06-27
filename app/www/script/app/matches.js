@@ -40,6 +40,7 @@ function($, component, doT, moment, template, utils){
 					match.home.score = match.home.goals ? match.home.goals.length : '???';
 					match.away.score = match.away.goals ? match.away.goals.length : '???';
 					match.time = new Date(match.timestamp).toString().split(' ')[4].slice(0,5);
+					match.location = match.location.replace(' (FRA)', '');
 				});
 			});
 
