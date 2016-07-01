@@ -2161,7 +2161,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Lewandowski",
                     "playerWebNameAlt": "Robert Lewandowski",
-                    "eventDateCET": "2016-06-30T21:03:55+00:00"
+                    "eventDateCET": "2016-06-30T21:03:56+00:00"
                 }
             ],
             "penalties": [
@@ -2174,7 +2174,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Lewandowski",
                     "playerWebNameAlt": "Robert Lewandowski",
-                    "eventDateCET": "2016-06-30T23:37:24+00:00"
+                    "eventDateCET": "2016-06-30T00:07:24+00:00"
                 },
                 {
                     "idPlayer": 250043124,
@@ -2185,7 +2185,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Milik",
                     "playerWebNameAlt": "Arkadiusz Milik",
-                    "eventDateCET": "2016-06-30T23:38:44+00:00"
+                    "eventDateCET": "2016-06-30T00:08:43+00:00"
                 },
                 {
                     "idPlayer": 1902388,
@@ -2196,7 +2196,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Glik",
                     "playerWebNameAlt": "Kamil Glik",
-                    "eventDateCET": "2016-06-30T23:40:07+00:00"
+                    "eventDateCET": "2016-06-30T00:10:07+00:00"
                 },
                 {
                     "idPlayer": 93621,
@@ -2207,7 +2207,7 @@
                     "eventsubcode": "7",
                     "playerWebName": "Błaszczykowski",
                     "playerWebNameAlt": "Jakub Błaszczykowski",
-                    "eventDateCET": "2016-06-30T23:41:40+00:00"
+                    "eventDateCET": "2016-06-30T00:11:40+00:00"
                 }
             ]
         },
@@ -2223,7 +2223,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Renato Sanches",
                     "playerWebNameAlt": "Renato Sanches",
-                    "eventDateCET": "2016-06-30T21:34:58+00:00"
+                    "eventDateCET": "2016-06-30T21:35:00+00:00"
                 }
             ],
             "penalties": [
@@ -2236,7 +2236,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Ronaldo",
                     "playerWebNameAlt": "Cristiano Ronaldo",
-                    "eventDateCET": "2016-06-30T23:36:26+00:00"
+                    "eventDateCET": "2016-06-30T00:06:26+00:00"
                 },
                 {
                     "idPlayer": 250058218,
@@ -2247,7 +2247,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Renato Sanches",
                     "playerWebNameAlt": "Renato Sanches",
-                    "eventDateCET": "2016-06-30T23:37:53+00:00"
+                    "eventDateCET": "2016-06-30T00:07:52+00:00"
                 },
                 {
                     "idPlayer": 70098,
@@ -2258,7 +2258,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "João Moutinho",
                     "playerWebNameAlt": "João Moutinho",
-                    "eventDateCET": "2016-06-30T23:39:23+00:00"
+                    "eventDateCET": "2016-06-30T00:09:23+00:00"
                 },
                 {
                     "idPlayer": 101336,
@@ -2269,7 +2269,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Nani",
                     "playerWebNameAlt": "Nani",
-                    "eventDateCET": "2016-06-30T23:40:49+00:00"
+                    "eventDateCET": "2016-06-30T00:10:49+00:00"
                 },
                 {
                     "idPlayer": 53749,
@@ -2280,7 +2280,7 @@
                     "eventsubcode": "D",
                     "playerWebName": "Quaresma",
                     "playerWebNameAlt": "Ricardo Quaresma",
-                    "eventDateCET": "2016-06-30T23:42:25+00:00"
+                    "eventDateCET": "2016-06-30T00:12:25+00:00"
                 }
             ]
         },
@@ -2289,27 +2289,80 @@
             "path": "/api/v2/football/en/matches/2017901"
         },
         "state": "Played",
-        "reasonWinTag": "Portugal wins 5-3 on penalties",
+        "reasonWinTag": "Portugal win 5-3 on penalties",
         "reasonWinTagAbbr": "(3-5 p)"
     },
     {
         "id": "2017902",
         "dateTime": "1 July 2016",
         "timestamp": 1467399600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Quarter-finals",
         "group": "",
         "location": "Stade Pierre Mauroy, Lille Métropole (FRA) ",
         "home": {
-            "name": "Wales"
+            "name": "Wales",
+            "goals": [
+                {
+                    "idPlayer": 250006700,
+                    "minute": 31,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "A. Williams",
+                    "playerWebNameAlt": "Ashley Williams",
+                    "eventDateCET": "2016-07-01T21:31:33+00:00"
+                },
+                {
+                    "idPlayer": 250022171,
+                    "minute": 55,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Robson-Kanu",
+                    "playerWebNameAlt": "Hal Robson-Kanu",
+                    "eventDateCET": "2016-07-01T22:11:30+00:00"
+                },
+                {
+                    "idPlayer": 1906115,
+                    "minute": 86,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Vokes",
+                    "playerWebNameAlt": "Sam Vokes",
+                    "eventDateCET": "2016-07-01T22:41:49+00:00"
+                }
+            ],
+            "penalties": []
         },
         "away": {
-            "name": "Belgium"
+            "name": "Belgium",
+            "goals": [
+                {
+                    "idPlayer": 1906233,
+                    "minute": 13,
+                    "minuteExtra": 0,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Nainggolan",
+                    "playerWebNameAlt": "Radja Nainggolan",
+                    "eventDateCET": "2016-07-01T21:13:51+00:00"
+                }
+            ],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017902"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "",
+        "reasonWinTagAbbr": null
     },
     {
         "id": "2017903",
@@ -2347,6 +2400,25 @@
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017904"
+        }
+    },
+    {
+        "id": "2017905",
+        "dateTime": "6 July 2016",
+        "timestamp": 1467831600000,
+        "isFuture": true,
+        "round": "Semi-finals",
+        "group": "",
+        "location": "Stade de Lyon, Lyon (FRA) ",
+        "home": {
+            "name": "Portugal"
+        },
+        "away": {
+            "name": "Wales"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017905"
         }
     }
 ]
