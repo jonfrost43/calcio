@@ -2368,20 +2368,251 @@
         "id": "2017903",
         "dateTime": "2 July 2016",
         "timestamp": 1467486000000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Quarter-finals",
         "group": "",
         "location": "Stade de Bordeaux, Bordeaux (FRA) ",
         "home": {
-            "name": "Germany"
+            "name": "Germany",
+            "goals": [
+                {
+                    "idPlayer": 103697,
+                    "minute": 65,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Özil",
+                    "playerWebNameAlt": "Mesut Özil",
+                    "eventDateCET": "2016-07-02T22:24:19+00:00"
+                }
+            ],
+            "penalties": [
+                {
+                    "idPlayer": 103147,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Kroos",
+                    "playerWebNameAlt": "Toni Kroos",
+                    "eventDateCET": "2016-07-02T23:38:11+00:00"
+                },
+                {
+                    "idPlayer": 250003318,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "7",
+                    "playerWebName": "Müller",
+                    "playerWebNameAlt": "Thomas Müller",
+                    "eventDateCET": "2016-07-02T23:39:26+00:00"
+                },
+                {
+                    "idPlayer": 103697,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "T",
+                    "playerWebName": "Özil",
+                    "playerWebNameAlt": "Mesut Özil",
+                    "eventDateCET": "2016-07-02T23:40:41+00:00"
+                },
+                {
+                    "idPlayer": 250026763,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Draxler",
+                    "playerWebNameAlt": "Julian Draxler",
+                    "eventDateCET": "2016-07-02T23:42:03+00:00"
+                },
+                {
+                    "idPlayer": 67496,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "W",
+                    "playerWebName": "Schweinsteiger",
+                    "playerWebNameAlt": "Bastian Schweinsteiger",
+                    "eventDateCET": "2016-07-02T23:43:26+00:00"
+                },
+                {
+                    "idPlayer": 106587,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Hummels",
+                    "playerWebNameAlt": "Mats Hummels",
+                    "eventDateCET": "2016-07-02T23:44:43+00:00"
+                },
+                {
+                    "idPlayer": 250070417,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Kimmich",
+                    "playerWebNameAlt": "Joshua Kimmich",
+                    "eventDateCET": "2016-07-02T23:45:55+00:00"
+                },
+                {
+                    "idPlayer": 98865,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Boateng",
+                    "playerWebNameAlt": "Jérôme Boateng",
+                    "eventDateCET": "2016-07-02T23:47:17+00:00"
+                },
+                {
+                    "idPlayer": 250080523,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Hector",
+                    "playerWebNameAlt": "Jonas Hector",
+                    "eventDateCET": "2016-07-02T23:48:29+00:00"
+                }
+            ]
         },
         "away": {
-            "name": "Italy"
+            "name": "Italy",
+            "goals": [
+                {
+                    "idPlayer": 250017925,
+                    "minute": 78,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "Bonucci",
+                    "playerWebNameAlt": "Leonardo Bonucci",
+                    "eventDateCET": "2016-07-02T22:37:16+00:00"
+                }
+            ],
+            "penalties": [
+                {
+                    "idPlayer": 250026037,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Insigne",
+                    "playerWebNameAlt": "Lorenzo Insigne",
+                    "eventDateCET": "2016-07-02T23:37:13+00:00"
+                },
+                {
+                    "idPlayer": 250020649,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "W",
+                    "playerWebName": "Zaza",
+                    "playerWebNameAlt": "Simone Zaza",
+                    "eventDateCET": "2016-07-02T23:38:48+00:00"
+                },
+                {
+                    "idPlayer": 74055,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Barzagli",
+                    "playerWebNameAlt": "Andrea Barzagli",
+                    "eventDateCET": "2016-07-02T23:40:02+00:00"
+                },
+                {
+                    "idPlayer": 103165,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "W",
+                    "playerWebName": "Pellè",
+                    "playerWebNameAlt": "Graziano Pellè",
+                    "eventDateCET": "2016-07-02T23:41:29+00:00"
+                },
+                {
+                    "idPlayer": 250017925,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "7",
+                    "playerWebName": "Bonucci",
+                    "playerWebNameAlt": "Leonardo Bonucci",
+                    "eventDateCET": "2016-07-02T23:42:35+00:00"
+                },
+                {
+                    "idPlayer": 250025337,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Giaccherini",
+                    "playerWebNameAlt": "Emanuele Giaccherini",
+                    "eventDateCET": "2016-07-02T23:44:07+00:00"
+                },
+                {
+                    "idPlayer": 250025336,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "Parolo",
+                    "playerWebNameAlt": "Marco Parolo",
+                    "eventDateCET": "2016-07-02T23:45:20+00:00"
+                },
+                {
+                    "idPlayer": 250024083,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "D",
+                    "playerWebName": "De Sciglio",
+                    "playerWebNameAlt": "Mattia De Sciglio",
+                    "eventDateCET": "2016-07-02T23:46:34+00:00"
+                },
+                {
+                    "idPlayer": 103806,
+                    "minute": 0,
+                    "minuteExtra": 0,
+                    "phase": 5,
+                    "idEventCode": 5,
+                    "eventsubcode": "7",
+                    "playerWebName": "Darmian",
+                    "playerWebNameAlt": "Matteo Darmian",
+                    "eventDateCET": "2016-07-02T23:47:52+00:00"
+                }
+            ]
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017903"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "Germany win 6-5 on penalties",
+        "reasonWinTagAbbr": "(6-5 p)"
     },
     {
         "id": "2017904",
