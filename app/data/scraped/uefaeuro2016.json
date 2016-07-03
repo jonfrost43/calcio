@@ -2737,5 +2737,24 @@
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017905"
         }
+    },
+    {
+        "id": "2017906",
+        "dateTime": "7 July 2016",
+        "timestamp": 1467918000000,
+        "isFuture": true,
+        "round": "Semi-finals",
+        "group": "",
+        "location": "Stade Vélodrome, Marseille (FRA) ",
+        "home": {
+            "name": "Germany"
+        },
+        "away": {
+            "name": "France"
+        },
+        "url": {
+            "host": "daaseuro2016.uefa.com",
+            "path": "/api/v2/football/en/matches/2017906"
+        }
     }
 ]
