@@ -2723,20 +2723,50 @@
         "id": "2017905",
         "dateTime": "6 July 2016",
         "timestamp": 1467831600000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Semi-finals",
         "group": "",
         "location": "Stade de Lyon, Lyon (FRA) ",
         "home": {
-            "name": "Portugal"
+            "name": "Portugal",
+            "goals": [
+                {
+                    "idPlayer": 63706,
+                    "minute": 50,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Ronaldo",
+                    "playerWebNameAlt": "Cristiano Ronaldo",
+                    "eventDateCET": "2016-07-06T22:05:37+00:00"
+                },
+                {
+                    "idPlayer": 101336,
+                    "minute": 53,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Nani",
+                    "playerWebNameAlt": "Nani",
+                    "eventDateCET": "2016-07-06T22:08:53+00:00"
+                }
+            ],
+            "penalties": []
         },
         "away": {
-            "name": "Wales"
+            "name": "Wales",
+            "goals": [],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017905"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "",
+        "reasonWinTagAbbr": null
     },
     {
         "id": "2017906",
