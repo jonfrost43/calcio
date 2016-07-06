@@ -12,6 +12,8 @@ exports.handler = function(request, response){
 
 		data = JSON.parse(data);
 
+		var matches = data;
+
 		if(!_.isEmpty(request.query)){
 			data = _.filter(data, _.matches(request.query));
 		}
@@ -48,6 +50,27 @@ exports.handler = function(request, response){
 						}
 						if(b.name > a.name){
 							return -1;
+						}
+						return 0;
+					})
+					.sort(function(a, b){
+						var h2h = _.find(matches, function(m){
+							return (m.home.name === a.name && m.away.name === b.name) || (m.home.name === b.name && m.away.name === a.name)
+						});
+
+						var winner;
+						if(h2h.home.goals.length > h2h.away.goals.length){
+							winner = h2h.home.name;
+						}
+						else if(h2h.home.goals.length < h2h.away.goals.length){
+							winner = h2h.away.name;
+						}
+
+						if(winner === a.name){
+							return -1;
+						}
+						if(winner === b.name){
+							return 1;
 						}
 						return 0;
 					})
