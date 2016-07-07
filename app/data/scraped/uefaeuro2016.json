@@ -2739,7 +2739,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Ronaldo",
                     "playerWebNameAlt": "Cristiano Ronaldo",
-                    "eventDateCET": "2016-07-06T22:05:37+00:00"
+                    "eventDateCET": "2016-07-06T22:05:40+00:00"
                 },
                 {
                     "idPlayer": 101336,
@@ -2750,7 +2750,7 @@
                     "eventsubcode": null,
                     "playerWebName": "Nani",
                     "playerWebNameAlt": "Nani",
-                    "eventDateCET": "2016-07-06T22:08:53+00:00"
+                    "eventDateCET": "2016-07-06T22:08:57+00:00"
                 }
             ],
             "penalties": []
@@ -2772,19 +2772,49 @@
         "id": "2017906",
         "dateTime": "7 July 2016",
         "timestamp": 1467918000000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Semi-finals",
         "group": "",
         "location": "Stade Vélodrome, Marseille (FRA) ",
         "home": {
-            "name": "Germany"
+            "name": "Germany",
+            "goals": [],
+            "penalties": []
         },
         "away": {
-            "name": "France"
+            "name": "France",
+            "goals": [
+                {
+                    "idPlayer": 250019498,
+                    "minute": 45,
+                    "minuteExtra": 2,
+                    "phase": 1,
+                    "idEventCode": 3,
+                    "eventsubcode": "P",
+                    "playerWebName": "Griezmann",
+                    "playerWebNameAlt": "Antoine Griezmann",
+                    "eventDateCET": "2016-07-07T21:47:33+00:00"
+                },
+                {
+                    "idPlayer": 250019498,
+                    "minute": 72,
+                    "minuteExtra": 0,
+                    "phase": 2,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Griezmann",
+                    "playerWebNameAlt": "Antoine Griezmann",
+                    "eventDateCET": "2016-07-07T22:30:11+00:00"
+                }
+            ],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017906"
-        }
+        },
+        "state": "Running",
+        "reasonWinTag": "",
+        "reasonWinTagAbbr": null
     }
 ]
