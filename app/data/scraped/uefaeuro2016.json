@@ -2821,19 +2821,38 @@
         "id": "2017907",
         "dateTime": "10 July 2016",
         "timestamp": 1468177200000,
-        "isFuture": true,
+        "isFuture": false,
         "round": "Final",
         "group": "",
         "location": "Stade de France, Saint-Denis (FRA) ",
         "home": {
-            "name": "Portugal"
+            "name": "Portugal",
+            "goals": [
+                {
+                    "idPlayer": 250035096,
+                    "minute": 109,
+                    "minuteExtra": 0,
+                    "phase": 4,
+                    "idEventCode": 3,
+                    "eventsubcode": null,
+                    "playerWebName": "Éder",
+                    "playerWebNameAlt": "Éder",
+                    "eventDateCET": "2016-07-10T23:18:22+00:00"
+                }
+            ],
+            "penalties": []
         },
         "away": {
-            "name": "France"
+            "name": "France",
+            "goals": [],
+            "penalties": []
         },
         "url": {
             "host": "daaseuro2016.uefa.com",
             "path": "/api/v2/football/en/matches/2017907"
-        }
+        },
+        "state": "Played",
+        "reasonWinTag": "Portugal win after extra time",
+        "reasonWinTagAbbr": "(a.e.t.)"
     }
 ]
